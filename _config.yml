@@ -17,6 +17,7 @@ baseurl: "" # 您网站的子路径，例如 /blog
 url: "https://wendell.website/WendellManual/" # 您网站的基本主机名和协议，例如 http://example.com
 repository: XiaoWendell/WendellManual # 用于 github-metadata
 
+
 permalink: pretty
 
 defaults:
