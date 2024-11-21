@@ -15,7 +15,7 @@ title: WendellManual
 description: Wendell's Manual
 baseurl: "" # 您网站的子路径，例如 /blog
 url: "https://wendell.website/WendellManual/" # 您网站的基本主机名和协议，例如 http://example.com
-repository: https://github.com/XiaoWendell/WendellManual # 用于 github-metadata
+repository: XiaoWendell/WendellManual # 用于 github-metadata
 
 permalink: pretty
 
@@ -107,57 +107,57 @@ mermaid:
 # 启用或禁用标题锚点
 heading_anchors: true
 
-# Aux links for the upper right navigation
+# 右上角导航的辅助链接
 aux_links:
   "Just the Docs on GitHub":
     - "https://github.com/just-the-docs/just-the-docs"
 
-# Makes Aux links open in a new tab. Default is false
+# 使辅助链接在新选项卡中打开。默认值为 false
 aux_links_new_tab: false
 
-# Enable or disable the side/mobile menu globally
-# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+# 全局启用或禁用侧面/移动菜单
+# 还可以使用页面变量或最小布局选择性地启用或禁用导航菜单
 nav_enabled: true
 
-# Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
-nav_sort: case_sensitive # Capital letters sorted before lowercase
+# 导航链接的排序顺序
+# nav_sort: case_insensitive # 默认，相当于 nil
+nav_sort: case_sensitive # 大写字母排在小写字母之前
 
-# External navigation links
+# 外部导航链接
 nav_external_links:
   - title: Just the Docs on GitHub
     url: https://github.com/just-the-docs/just-the-docs
 
-# Show navigation error report
-nav_error_report: true # default is false/nil.
+# 显示导航错误报告
+nav_error_report: true # 默认值为 false/nil。
 
 liquid:
   error_mode: strict
   strict_filters: true
 
-# Footer content
-# appears at the bottom of every page's main content
+# 页脚内容
+# 出现在每个页面主要内容的底部
 
-# Back to top link
+# 返回顶部链接
 back_to_top: true
 back_to_top_text: "Back to top"
 
 footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# 页脚最后编辑时间戳
+last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
+last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式：https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
+# 页脚 “在 GitHub 上编辑此页面” 链接文本
+gh_edit_link: true # 显示或隐藏编辑此页面链接
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # 你的 repo 的 github URL
+gh_edit_branch: "maater" # 您的文档所来自的分支
+# gh_edit_source: docs # 您的文件来源
+gh_edit_view_mode: "tree" # 如果您希望用户立即跳转到编辑器，则使用“tree”或“edit”
 
-# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+# 配色方案目前仅支持 "dark", "light"/nil (default)或您定义的自定义方案
+color_scheme: dark
 
 callouts_level: quiet # or loud
 callouts:
