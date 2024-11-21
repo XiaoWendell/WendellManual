@@ -1,29 +1,27 @@
-# Welcome to Jekyll!
+# 欢迎使用 Jekyll！
 #
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# 此配置文件用于影响整个站点的设置，这些值
+# 只需设置一次，之后很少进行编辑。如果您发现自己经常编辑这些文件，请考虑使用 Jekyll 的数据文件
+# 功能来获取需要经常更新的数据。
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 由于技术原因，当您使用
+# 'jekyll serve' 时，此文件不会自动重新加载。如果您更改此文件，请重新启动服务器进程。
+# 站点设置
+# 这些用于个性化您的新站点。如果您查看 HTML 文件，
+# 您将看到它们通过 {{ site.title }}、{{ site.github_repo }} 等访问。
+# 您可以创建任何您想要的自定义变量，并且它们将通过 {{ site.myvariable }} 在模板中访问。
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+title: WendellManual
+description: Wendell's Manual
+baseurl: "" # 您网站的子路径，例如 /blog
+url: "https://wendell.website/WendellManual/" # 您网站的基本主机名和协议，例如 http://example.com
+repository: https://github.com/XiaoWendell/WendellManual # 用于 github-metadata
 
 permalink: pretty
 
 defaults:
   - scope:
-      path: "docs" # an empty string here means all files in the project
+      path: "docs" # 此处的空字符串表示项目中的所有文件
       type: "pages"
     values:
       layout: "default"
@@ -40,7 +38,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  # specific to the theme website:
+
+  # 特定于主题网站: 
   - bin/
   - lib/
   - "*.gemspec"
@@ -53,59 +52,59 @@ exclude:
   - CODE_OF_CONDUCT.md
   - docker-compose.yml
   - Dockerfile
-  # theme test code
+  # 主题测试代码
   - fixtures/
 
-# Set a path/url to a logo that will be displayed instead of the title
+# 设置将显示的徽标的路径/URL 而不是标题
 #logo: "/assets/images/just-the-docs.png"
 
-# Enable or disable the site search
-# Supports true (default) or false
+# 启用或禁用站点搜索
+# 支持 true（默认）或 false
 search_enabled: true
 search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
+  # 将页面拆分为可单独搜索的部分
+  # 支持 1 - 6，默认值: 2
   heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
+  # 每个搜索结果的最大预览数量
+  # 默认值: 3
   previews: 2
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
+  # 在预览中匹配单词前显示的最大单词数量
+  # 默认值: 5
   preview_words_before: 3
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
+  # 在预览中匹配单词后显示的最大单词数量
+  # 默认值: 10
   preview_words_after: 3
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
+  # 设置搜索标记分隔符
+  # 默认值: /[\s\-/]+/
+  # 示例: 启用对带连字符的搜索词的支持
   tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
+  # 在搜索结果中显示相对 URL
+  # 支持 true（默认）或 false
   rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
+  # 启用或禁用出现在每个页面右下角的搜索按钮
+  # 支持 true 或 false（默认）
   button: false
-  # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
-  focus_shortcut_key: "k"
+  # 通过按 `ctrl + focus_shortcut_key`（或 macOS 上的 `cmd + focus_shortcut_key`）
+  focus_shortcut_key: “k”
 
-# For copy button on code
+# 代码上的复制按钮
 enable_copy_code_button: true
 
-# By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
+# 默认情况下，将主题作为宝石使用会导致美人鱼被禁用；这是可选的
 mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  # mermaid 库的版本
+  # 从 https://cdn.jsdelivr.net/npm/mermaid/ 中选择一个可用版本
   version: "9.1.6"
-  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
-  # See also docs/ui-components/code
-  # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
+  # 将任何其他配置（例如设置主题）放入 _includes/mermaid_config.js 中
+  # 另请参阅 docs/ui-components/code
+  # 要从本地库加载 mermaid，还请使用 `path` 键指定库的位置；例如
   # for (v10+):
-  # path: "/assets/js/mermaid.esm.min.mjs"
+  # path：“/assets/js/mermaid.esm.min.mjs”
   # for (<v10):
-  # path: "/assets/js/mermaid.min.js"
-  # Note: copy both `mermaid.esm.min.mjs` (v10+) or `mermaid.min.js` (<v10) and the associated `.map` file from the specified version of `mermaid/dist` to `/assets/js/`.
+  # path：“/assets/js/mermaid.min.js”
+  # 注意：将 `mermaid.esm.min.mjs`（v10+）或 `mermaid.min.js`（<v10）以及关联的 `.map` 文件从指定版本的 `mermaid/dist` 复制到 `/assets/js/`。
 
-# Enable or disable heading anchors
+# 启用或禁用标题锚点
 heading_anchors: true
 
 # Aux links for the upper right navigation
