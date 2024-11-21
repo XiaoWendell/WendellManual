@@ -8,3 +8,9 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jekyll-sitemap", group: :jekyll_plugins
 
 gem "html-proofer", "~> 5.0", :group => :development
+
+# dubug
+gem 'csv'
+gem 'base64'
+gem 'faraday-retry'
+gem 'wdm', '>= 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
