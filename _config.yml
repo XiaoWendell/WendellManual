@@ -110,8 +110,8 @@ heading_anchors: true
 
 # 右上角导航的辅助链接
 aux_links:
-  "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
+  "Wendell on GitHub":
+    - "https://github.com/XiaoWendell/WendellManual"
 
 # 使辅助链接在新选项卡中打开。默认值为 false
 aux_links_new_tab: false
@@ -126,8 +126,8 @@ nav_sort: case_sensitive # 大写字母排在小写字母之前
 
 # 外部导航链接
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: Wendell on GitHub
+    url: https://github.com/XiaoWendell/WendellManual
 
 # 显示导航错误报告
 nav_error_report: true # 默认值为 false/nil。
@@ -143,7 +143,7 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
+footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/XiaoWendell/WendellManual/tree/main/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
 
 # 页脚最后编辑时间戳
 last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
@@ -152,7 +152,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格�
 # 页脚 “在 GitHub 上编辑此页面” 链接文本
 gh_edit_link: true # 显示或隐藏编辑此页面链接
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # 你的 repo 的 github URL
+gh_edit_repository: "https://github.com/XiaoWendell/WendellManual" # 你的 repo 的 github URL
 gh_edit_branch: "maater" # 您的文档所来自的分支
 # gh_edit_source: docs # 您的文件来源
 gh_edit_view_mode: "tree" # 如果您希望用户立即跳转到编辑器，则使用“tree”或“edit”
@@ -177,13 +177,17 @@ callouts:
     title: Warning
     color: red
 
-# Google Analytics Tracking (optional)
-# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
-# Note: the main Just the Docs site does *not* use Google Analytics.
-# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
-# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+# Google Analytics 跟踪（可选）
+# 支持跟踪 ID 字符串的 CSV（例如“UA-1234567-89,G-1AB234CDE5”）
+# 注意：Just the Docs 主站点*不*使用 Google Analytics。
+# ga_tracking：UA-2709176-10,G-5FG1HLH3XQ
+# ga_tracking_anonymize_ip：true # 使用符合 GDPR 的 Google Analytics 设置（默认为 true/nil）
 
-plugins:
+# Google Analytics 跟踪（可选）
+
+
+
+plugins: # 插件，用于生成站点
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-include-cache
