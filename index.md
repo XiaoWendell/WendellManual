@@ -12,7 +12,7 @@ permalink: /
 Just the Docs 可通过一个响应式 Jekyll 主题为您的文档提供快速启动，该主题可轻松定制并托管在 GitHub Pages 上。
 {: .fs-6 .fw-300 }
 
-[立即开始](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[立即开始](#入门){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [在 GitHub 上查看][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
