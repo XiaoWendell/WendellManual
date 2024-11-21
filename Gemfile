@@ -1,4 +1,5 @@
-source "https://rubygems.org"
+# source "https://rubygems.org"
+source "https://gems.ruby-china.com/"     # 使用国内镜像
 gemspec
 
 gem "jekyll-github-metadata", ">= 2.15"
