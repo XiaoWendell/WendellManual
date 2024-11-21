@@ -6,7 +6,7 @@ description: “具有内置搜索功能”
 permalink: /
 ---
 
-# 专注于编写好的文档。测试
+# Wendell专注于编写的文档。
 {: .fs-9 }
 
 Just the Docs 可通过一个响应式 Jekyll 主题为您的文档提供快速启动，该主题可轻松定制并托管在 GitHub Pages 上。
