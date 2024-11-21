@@ -154,7 +154,7 @@ GEM
     wdm (0.2.0)
     webrick (1.9.0)
     yell (2.2.2)
-    zeitwerk (2.7.1)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -171,6 +171,7 @@ DEPENDENCIES
   jekyll-sitemap
   just-the-docs!
   wdm (>= 0.1.0)
+  zeitwerk (~> 2.6.0)
 
 BUNDLED WITH
    2.5.23
