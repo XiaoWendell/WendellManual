@@ -51,6 +51,14 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
+        # Wait job，在 actions/deploy-pages 步骤之前，添加一个防止重复运行的逻辑，等待之前的任务完成：
+      - name: Wait for other workflows to finish
+        uses: jakejarvis/wait-on-check@v2
+        with:
+          repo: ${{ github.repository }}
+          ref: ${{ github.sha }}
+
+
   # Deployment job
   deploy:
     environment:
