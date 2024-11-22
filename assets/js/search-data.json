@@ -386,14 +386,14 @@
   },"55": {
     "doc": "Auxiliary Links",
     "title": "Auxiliary Links",
-    "content": "You can add a list of auxiliary links to your site, shown at the top right on all pages. You do this by including the aux_links configuration option in your site’s _config.yml file. ",
+    "content": "您可以向网站添加辅助链接列表，该列表显示在所有页面的右上角。您可以通过在网站的 _config.yml 文件中添加 aux_links 配置选项 来实现此目的。 . ",
     "url": "/docs/navigation/auxiliary/",
     
     "relUrl": "/docs/navigation/auxiliary/"
   },"56": {
     "doc": "Auxiliary Links",
     "title": "Example Auxiliary Link",
-    "content": "This website has an auxiliary link: “Just the Docs on GitHub”. It is rendered with the following code: . aux_links: Just the Docs on GitHub: - https://github.com/just-the-docs/just-the-docs . ",
+    "content": "该网站有一个辅助链接：“Just the Docs on GitHub”。它使用以下代码呈现： . aux_links: Just the Docs on GitHub: - https://github.com/just-the-docs/just-the-docs . ",
     "url": "/docs/navigation/auxiliary/#example-auxiliary-link",
     
     "relUrl": "/docs/navigation/auxiliary/#example-auxiliary-link"
@@ -484,7 +484,7 @@
   },"69": {
     "doc": "Child Pages",
     "title": "Child Pages",
-    "content": "By default, all parent pages will automatically have a so-called ‘Table of Contents’ at the bottom, showing links to all their child pages. To disable this automatic list, set has_toc: false in the parent page’s front matter. ",
+    "content": "默认情况下，所有父页面底部都会自动出现所谓的“目录”，显示所有子页面的链接。 . 要禁用此自动列表，请在父页面的封面中设置“has_toc: false”。 . ",
     "url": "/docs/navigation/children/",
     
     "relUrl": "/docs/navigation/children/"
@@ -749,11 +749,11 @@
     "relUrl": "/docs/customization/#custom-layouts-and-includes"
   },"107": {
     "doc": "Default layout child page",
-    "title": "A minimal layout page",
-    "content": "This is a child page that uses the same minimal layout as its parent page. ",
-    "url": "/docs/layout/minimal/default-child/#a-minimal-layout-page",
+    "title": "最小布局页面",
+    "content": "这是一个子页面，使用与其父页面相同的最小布局。 . ",
+    "url": "/docs/layout/minimal/default-child/#%E6%9C%80%E5%B0%8F%E5%B8%83%E5%B1%80%E9%A1%B5%E9%9D%A2",
     
-    "relUrl": "/docs/layout/minimal/default-child/#a-minimal-layout-page"
+    "relUrl": "/docs/layout/minimal/default-child/#最小布局页面"
   },"108": {
     "doc": "Default layout child page",
     "title": "Default layout child page",
@@ -939,7 +939,7 @@
   },"134": {
     "doc": "Navigation",
     "title": "Navigation",
-    "content": "The default page layout supports various navigation features: . | a main navigation panel, highlighting the currently selected page; | a list of auxiliary links, shown on all pages; | lists of breadcrumbs, shown on all except top level pages; | optional lists of links to child pages (so-called ‘tables of contents’); and | section heading links for in-page navigation, with an optional back-to-top link. | . See the following pages for how to specify these features, with illustrative examples. ",
+    "content": "默认页面布局支持各种导航功能： . | 主导航（main navigation） 面板，突出显示当前选定的页面； | 一个 辅助（auxiliary） 链接列表，显示在所有页面上； | breadcrumbs列表,显示在除顶级页面之外的所有页面上； | 指向子页面（child pages）（所谓的“目录”）的可选链接列表；以及 | 用于页内导航（in-page navigation）的部分标题链接，带有可选的返回顶部（back-to-top）链接。 | . 请参阅以下页面以了解如何指定这些功能以及说明性示例。 . ",
     "url": "/docs/navigation/",
     
     "relUrl": "/docs/navigation/"
@@ -1162,285 +1162,299 @@
     "relUrl": "/docs/ui-components/lists/#definition-list"
   },"166": {
     "doc": "Minimal layout child page",
+    "title": "最小布局子页面",
+    "content": "这是一个使用与父页面相同的最小布局的子页面。 . ",
+    "url": "/docs/layout/minimal/minimal-child/#%E6%9C%80%E5%B0%8F%E5%B8%83%E5%B1%80%E5%AD%90%E9%A1%B5%E9%9D%A2",
+    
+    "relUrl": "/docs/layout/minimal/minimal-child/#最小布局子页面"
+  },"167": {
+    "doc": "Minimal layout child page",
     "title": "Minimal layout child page",
-    "content": "This is a child page that uses the same minimal layout as its parent page. ",
+    "content": " ",
     "url": "/docs/layout/minimal/minimal-child/",
     
     "relUrl": "/docs/layout/minimal/minimal-child/"
-  },"167": {
+  },"168": {
     "doc": "Minimal layout test",
     "title": "Minimal Layout Test Page",
     "content": "Return to main website. This page demonstrates the packaged minimal layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see “Custom layouts and includes” in the customization docs for more information. ",
     "url": "/docs/minimal-test/#minimal-layout-test-page",
     
     "relUrl": "/docs/minimal-test/#minimal-layout-test-page"
-  },"168": {
+  },"169": {
     "doc": "Minimal layout test",
     "title": "Minimal layout test",
     "content": " ",
     "url": "/docs/minimal-test/",
     
     "relUrl": "/docs/minimal-test/"
-  },"169": {
+  },"170": {
+    "doc": "A minimal layout page",
+    "title": "最小布局页面",
+    "content": "此页面说明了内置布局“最小”。 . 其中一个子页面也使用最小布局；其他子页面使用默认布局。 . ",
+    "url": "/docs/layout/minimal/minimal/#%E6%9C%80%E5%B0%8F%E5%B8%83%E5%B1%80%E9%A1%B5%E9%9D%A2",
+    
+    "relUrl": "/docs/layout/minimal/minimal/#最小布局页面"
+  },"171": {
     "doc": "A minimal layout page",
     "title": "A minimal layout page",
-    "content": "This page illustrates the built-in layout minimal. One of its child pages also uses the minimal layout; the other child pages uses the default layout. ",
+    "content": " ",
     "url": "/docs/layout/minimal/minimal/",
     
     "relUrl": "/docs/layout/minimal/minimal/"
-  },"170": {
+  },"172": {
     "doc": "Ordering Pages",
     "title": "Ordering Pages",
     "content": "To specify a page order, you can use the nav_order parameter in the front matter of the pages. ",
     "url": "/docs/navigation/main/order/",
     
     "relUrl": "/docs/navigation/main/order/"
-  },"171": {
+  },"173": {
     "doc": "Ordering Pages",
     "title": "Example: using nav_order",
     "content": "--- title: Customization nav_order: 6 --- . The parameter values determine the order of the top-level pages, and of child pages with the same parent. You can reuse the same parameter values (e.g., integers starting from 1) for the child pages of different parents. The parameter values can be numbers (integers, floats1) and/or strings. When you omit nav_order parameters, they default to the titles of the pages, which are ordered alphabetically. Pages with numerical nav_order parameters always come before those with strings or default nav_order parameters. If you want to make the page order independent of the page titles, you can set explicit nav_order parameters on all pages. The order of pages with equal nav_order parameters is unstable: it may change with each build. By default, all Capital letters come before all lowercase letters; you can add nav_sort: case_insensitive in the configuration file to ignore the case.2 . Enclosing strings in quotation marks in front matter is optional, unless they contain “[”, “]”, “{”, “}”, “,”, “: ”, or “ #”. Boolean, integer, and float values are treated as strings when enclosed in quotation marks. | Jekyll treats each integer N as equal to the corresponding float N.0. &#8617; . | Note for users of previous versions of Just the Docs: The option nav_sort: case_insensitive previously affected the ordering of numerical nav_order parameters: e.g., 10 came before 2. Also, all pages with explicit nav_order parameters previously came before all pages with default parameters. Both were potentially confusing, and they have now been eliminated. &#8617; . | . ",
     "url": "/docs/navigation/main/order/#example-using-nav_order",
     
     "relUrl": "/docs/navigation/main/order/#example-using-nav_order"
-  },"172": {
+  },"174": {
     "doc": "Breadcrumbs",
     "title": "Breadcrumbs",
-    "content": "When using the default layout, all pages except top-level pages will automatically have a list of ‘breadcrumbs’ at the top, linking to the parent page and to any higher-level ancestors. The default layout does not provide an option to suppress the list of breadcrumbs. To do that, you would need to define a new layout, or override the file _includes/components/breadcrumbs.html (e.g., with an empty file). ",
+    "content": "使用默认布局时，除顶级页面外的所有页面都会自动在顶部显示“面包屑”列表，链接到父页面和任何更高级别的祖先。 . 默认布局不提供隐藏Breadcrumbs列表的选项。要做到这一点，您需要定义一个新布局，或覆盖文件“_includes/components/breadcrumbs.html”（例如，使用一个空文件）。 . ",
     "url": "/docs/navigation/parents/",
     
     "relUrl": "/docs/navigation/parents/"
-  },"173": {
+  },"175": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"174": {
+  },"176": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"175": {
+  },"177": {
     "doc": "Search",
     "title": "Search",
     "content": " ",
     "url": "/docs/search/",
     
     "relUrl": "/docs/search/"
-  },"176": {
+  },"178": {
     "doc": "Search",
     "title": "Table of contents",
     "content": ". | Enable search in configuration . | Search granularity | Search previews | Search tokenizer | Display URL in search results | Display search button | Focus search bar with a keyboard shortcut | . | Hiding pages from search | Generate search index when used as a gem | Custom content for search index . | Example: adding custom usage and examples fields | . | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
     "url": "/docs/search/#table-of-contents",
     
     "relUrl": "/docs/search/#table-of-contents"
-  },"177": {
+  },"179": {
     "doc": "Search",
     "title": "Enable search in configuration",
     "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . Focus search bar with a keyboard shortcut . Just the Docs supports focusing the search bar input with a keyboard shortcut. After setting the search.focus_shortcut_key config item key, users who press Ctrl + search.focus_shortcut_key (or on macOS, Command + search.focus_shortcut_key) will focus the search bar. Note that this feature is disabled by default. search.focus_shortcut_key should be a valid value from KeyboardEvent.key; this involves all ASCII alphanumeric values, as well as modifier keys. For example, . search: focus_shortcut_key: 'k' . Will make Ctrl + K focus the search bar for Windows users (and Command + K on macOS). ",
     "url": "/docs/search/#enable-search-in-configuration",
     
     "relUrl": "/docs/search/#enable-search-in-configuration"
-  },"178": {
+  },"180": {
     "doc": "Search",
     "title": "Hiding pages from search",
     "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g., a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
     "url": "/docs/search/#hiding-pages-from-search",
     
     "relUrl": "/docs/search/#hiding-pages-from-search"
-  },"179": {
+  },"181": {
     "doc": "Search",
     "title": "Generate search index when used as a gem",
     "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
     "url": "/docs/search/#generate-search-index-when-used-as-a-gem",
     
     "relUrl": "/docs/search/#generate-search-index-when-used-as-a-gem"
-  },"180": {
+  },"182": {
     "doc": "Search",
     "title": "Custom content for search index",
     "content": "New (v0.4.0) . Advanced . By default, the search feature indexes a page’s .content, .title, and some headers within the .content. Other data (e.g. front matter, files in _data and assets) is not indexed. Users can customize what is indexed. Customizing search indices is an advanced feature that requires Javascript and Liquid knowledge. | When Just the Docs is a local or gem theme, ensure assets/js/zzzz-search-data.json is up-to-date with Generate search index when used as a gem. | Add a new file named _includes/lunr/custom-data.json. Insert custom Liquid code that reads your data (e.g. the page object at include.page) then generates custom Javascript fields that hold the custom data you want to index. Verify these fields in the generated assets/js/search-data.json. | Add a new file named _includes/lunr/custom-index.js. Insert custom Javascript code that reads your custom Javascript fields and inserts them into the search index. You may want to inspect assets/js/just-the-docs.js to better understand the code. | . Example: adding custom usage and examples fields . This example adds front matter usage and examples fields to the search index. _includes/lunr/custom-data.json custom code reads the page usage and examples fields, normalizes the text, and writes the text to custom Javascript myusage and myexamples fields. Javascript fields are similar yet not the same as JSON. jsonify will probably work for most scenarios. {%- capture newline %} {% endcapture -%} \"myusage\": {{ include.page.usage | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }}, \"myexamples\": {{ include.page.examples | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }}, . _includes/lunr/custom-index.js custom code is inserted into the Javascript loop of assets/js/just-the-docs.js. All custom Javascript fields are accessed as fields of docs[i] such as docs[i].myusage. Finally, append your custom fields on to the already existing docs[i].content. const content_to_merge = [docs[i].content, docs[i].myusage, docs[i].myexamples]; docs[i].content = content_to_merge.join(' '); . ",
     "url": "/docs/search/#custom-content-for-search-index",
     
     "relUrl": "/docs/search/#custom-content-for-search-index"
-  },"181": {
+  },"183": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"182": {
+  },"184": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"183": {
+  },"185": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"184": {
+  },"186": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"185": {
+  },"187": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"186": {
+  },"188": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"187": {
+  },"189": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"188": {
+  },"190": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"189": {
+  },"191": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"190": {
+  },"192": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"191": {
+  },"193": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"192": {
+  },"194": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"193": {
+  },"195": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"194": {
+  },"196": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"195": {
+  },"197": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"196": {
+  },"198": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"197": {
+  },"199": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"198": {
+  },"200": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"199": {
+  },"201": {
     "doc": "X",
     "title": "X",
     "content": "title: X parent: Ancestry . ",
     "url": "/docs/navigation/main/x/",
     
     "relUrl": "/docs/navigation/main/x/"
-  },"200": {
+  },"202": {
     "doc": "S",
     "title": "S",
     "content": "title: S parent: X . ",
     "url": "/docs/navigation/main/xs/",
     
     "relUrl": "/docs/navigation/main/xs/"
-  },"201": {
+  },"203": {
     "doc": "T",
     "title": "T",
     "content": "title: T parent: S grand_parent: X . ",
     "url": "/docs/navigation/main/xt/",
     
     "relUrl": "/docs/navigation/main/xt/"
-  },"202": {
+  },"204": {
     "doc": "U",
     "title": "U",
     "content": "title: U parent: T ancestor: X . ",
     "url": "/docs/navigation/main/xu/",
     
     "relUrl": "/docs/navigation/main/xu/"
-  },"203": {
+  },"205": {
     "doc": "Y",
     "title": "Y",
     "content": "title: Y parent: Ancestry . ",
     "url": "/docs/navigation/main/y/",
     
     "relUrl": "/docs/navigation/main/y/"
-  },"204": {
+  },"206": {
     "doc": "S",
     "title": "S",
     "content": "title: S parent: Y . ",
     "url": "/docs/navigation/main/ys/",
     
     "relUrl": "/docs/navigation/main/ys/"
-  },"205": {
+  },"207": {
     "doc": "T",
     "title": "T",
     "content": "title: T parent: S ancestor: Y . ",
     "url": "/docs/navigation/main/yt/",
     
     "relUrl": "/docs/navigation/main/yt/"
-  },"206": {
+  },"208": {
     "doc": "U",
     "title": "U",
     "content": "title: U parent: T ancestor: Y . ",
