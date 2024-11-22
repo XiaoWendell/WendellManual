@@ -13,7 +13,7 @@ Just the Docs 可通过一个响应式 Jekyll 主题为您的文档提供快速�
 {: .fs-6 .fw-300 }
 
 [立即开始](#开始){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[在 GitHub 上查看][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[在 GitHub 上查看][WendellManual]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -42,7 +42,7 @@ WendellManual 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Mars
 
 [^1]: 本页 [source file for this page] 使用了所有三种标记语言。
 
-[source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
+[source file for this page]: https://github.com/XiaoWendell/WendellManual/blob/main/index.md
 [Jekyll]: https://jekyllrb.com
 [Markdown]: https://daringfireball.net/projects/markdown/
 [Liquid]: https://github.com/Shopify/liquid/wiki
@@ -50,3 +50,5 @@ WendellManual 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Mars
 [Jekyll configuration]: https://jekyllrb.com/docs/configuration/
 [GitHub Pages]: https://pages.github.com/
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+
+[WendellManual]: https://github.com/XiaoWendell/WendellManual
