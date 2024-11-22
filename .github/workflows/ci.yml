@@ -11,12 +11,13 @@ on:
 jobs:
   jekyll-build:
     name: Build (jekyll gem)
-    runs-on: ubuntu-latest  # 仅使用 Ubuntu 环境
     strategy:
       fail-fast: false
       matrix:
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统
         jekyll-version: [4.3]  # 保留常用的 Jekyll 版本
         ruby-version: ["3.2"]  # 选择常用的 Ruby 版本
+    runs-on: ${{ matrix.os }}
     steps:
       # 检出代码
       - uses: actions/checkout@v4
@@ -48,16 +49,19 @@ jobs:
 
   validate:
     name: Validate HTML
-    runs-on: ubuntu-latest  # 仅使用 Ubuntu 环境
+    strategy:
+      matrix:
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统
+    runs-on: ${{ matrix.os }}
     steps:
       # 检出代码
       - uses: actions/checkout@v4
 
       # 设置 Ruby 环境
-      - name: Setup Ruby ${{ matrix.ruby-version }}
+      - name: Setup Ruby 3.2
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          ruby-version: 3.2
           bundler-cache: true  # 启用缓存
 
       # 构建 Jekyll 网站
@@ -72,12 +76,11 @@ jobs:
 
   assets:
     name: Test CSS and JS
-    runs-on: ubuntu-latest
-
     strategy:
       matrix:
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统
         node-version: [20.x]  # Node.js 版本
-
+    runs-on: ${{ matrix.os }}
     steps:
       # 检出代码
       - uses: actions/checkout@v4
