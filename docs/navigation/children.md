@@ -6,9 +6,9 @@ nav_order: 4
 
 # Child Pages
 
-By default, all parent pages will automatically have a so-called 'Table of Contents' at the bottom, showing links to all their child pages.
+默认情况下，所有父页面底部都会自动出现所谓的“目录”，显示所有子页面的链接。
 
-To disable this automatic list, set `has_toc: false` in the parent page's front matter.
+要禁用此自动列表，请在父页面的封面中设置“has_toc: false”。
 
 ## Example: disabling table of contents
 {: .text-delta }

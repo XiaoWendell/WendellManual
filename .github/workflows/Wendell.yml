@@ -1,6 +1,6 @@
 # Wendell添加
 # 解决在尝试从 RubyGems 镜像（https://gems.ruby-china.com/）获取 gem 数据时，出现了频率限制 (Frequency Capped 514) 的问题。
-name: Build and Deploy Jekyll Site
+name: Build and Deploy Wendell Manual
 
 on:
   push:

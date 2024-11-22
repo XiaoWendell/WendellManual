@@ -6,6 +6,6 @@ nav_order: 3
 
 # Breadcrumbs
 
-When using the default layout, all pages except top-level pages will automatically have a list of 'breadcrumbs' at the top, linking to the parent page and to any higher-level ancestors.
+使用默认布局时，除顶级页面外的所有页面都会自动在顶部显示“面包屑”列表，链接到父页面和任何更高级别的祖先。
 
-The default layout does not provide an option to suppress the list of breadcrumbs. To do that, you would need to define a new layout, or override the file `_includes/components/breadcrumbs.html` (e.g., with an empty file).
+默认布局不提供隐藏Breadcrumbs列表的选项。要做到这一点，您需要定义一个新布局，或覆盖文件“_includes/components/breadcrumbs.html”（例如，使用一个空文件）。

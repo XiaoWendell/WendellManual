@@ -4,8 +4,8 @@ layout: minimal
 parent: Layout
 ---
 
-# A minimal layout page
+# 最小布局页面
 
-This page illustrates the built-in layout `minimal`.
+此页面说明了内置布局“最小”。
 
-One of its child pages also uses the minimal layout; the other child pages uses the default layout.
+其中一个子页面也使用最小布局；其他子页面使用默认布局。

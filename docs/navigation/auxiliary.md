@@ -6,12 +6,12 @@ nav_order: 2
 
 # Auxiliary Links
 
-You can add a list of auxiliary links to your site, shown at the top right on all pages. You do this by including the `aux_links` [configuration option]({% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+您可以向网站添加辅助链接列表，该列表显示在所有页面的右上角。您可以通过在网站的 `_config.yml` 文件中添加 `aux_links` [配置选项]({% link docs/configuration.md %}#aux-links) 来实现此目的。
 
 ## Example Auxiliary Link
 {: .text-delta }
 
-This website has an auxiliary link: "Just the Docs on GitHub". It is rendered with the following code:
+该网站有一个辅助链接：“Just the Docs on GitHub”。它使用以下代码呈现：
 
 ```yaml
 aux_links:
