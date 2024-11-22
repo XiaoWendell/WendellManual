@@ -10,39 +10,86 @@ on:
 
 jobs:
   jekyll-build:
-    name: Build and Validate Jekyll Site
-    runs-on: ubuntu-latest
+    name: Build (jekyll gem)
+    runs-on: ubuntu-latest  # 仅使用 Ubuntu 环境
+    strategy:
+      fail-fast: false
+      matrix:
+        jekyll-version: [4.3]  # 保留常用的 Jekyll 版本
+        ruby-version: ["3.2"]  # 选择常用的 Ruby 版本
     steps:
-      # Step 1: 检出代码
-      - name: Checkout code
-        uses: actions/checkout@v4
+      # 检出代码
+      - uses: actions/checkout@v4
 
-      # Step 2: 设置 Ruby 环境
-      - name: Setup Ruby
+      # 设置 Ruby 环境
+      - name: Setup Ruby ${{ matrix.ruby-version }}
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2" # 使用你项目的 Ruby 版本  [3.9, 4.3]
-          bundler-cache: true # 缓存 Bundler 依赖
+          ruby-version: ${{ matrix.ruby-version }}
+          bundler-cache: false
 
-      # Step 3: 安装特定版本的 Jekyll
-      - name: Install Jekyll 4.3
-        run: |
-          gem install jekyll -v 4.3
-        # 这里指定你想要的 Jekyll 版本 [3.9, 4.3]
-  
-      # Step 4: 安装 Jekyll 依赖
-      - name: Install Dependencies
-        run: |
-          bundle install
-          bundle exec rake search:init
+      # 安装 Jekyll 依赖
+      - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
+        run: bundle install
+        env:
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
 
-      # Step 5: 构建 Jekyll 网站
+      # 初始化搜索功能
+      - name: Init Search
+        run: bundle exec rake search:init
+        env:
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+
+      # 构建 Jekyll 网站
+      - name: Build Site
+        run: bundle exec jekyll build
+        env:
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+
+  validate:
+    name: Validate HTML
+    runs-on: ubuntu-latest  # 仅使用 Ubuntu 环境
+    steps:
+      # 检出代码
+      - uses: actions/checkout@v4
+
+      # 设置 Ruby 环境
+      - name: Setup Ruby ${{ matrix.ruby-version }}
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true  # 启用缓存
+
+      # 构建 Jekyll 网站
       - name: Build Site
         run: bundle exec jekyll build
 
-      # Step 6: 验证生成的 HTML
-      - name: Validate HTML
-        run: |
-          bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
+      # 使用 html-proofer 进行链接和 HTML 验证
+      - name: Test with html-proofer
+        run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
         env:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+  assets:
+    name: Test CSS and JS
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]  # Node.js 版本
+
+    steps:
+      # 检出代码
+      - uses: actions/checkout@v4
+
+      # 设置 Node.js 环境
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # 安装依赖
+      - run: npm install
+
+      # 运行测试
+      - run: npm test
