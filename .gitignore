@@ -1,7 +1,7 @@
 # 不确定 .gitignore 是什么？
-# 请参阅：https://git-scm.com/docs/gitignore
+# 请参阅: https://git-scm.com/docs/gitignore
 
-# 第一个文件是直接从 Jekyll 的官方文档中复制的关于 `.gitignore` 文件的内容：
+# 第一个文件是直接从 Jekyll 的官方文档中复制的关于 `.gitignore` 文件的内容: 
 # https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#commit-to-source-control
 
 # 忽略 Jekyll 生成的默认站点位置、缓存和元数据
@@ -21,7 +21,7 @@ vendor/
 node_modules
 
 # .DS_Store 是 macOS 专用的关于目录的元数据文件。惯例是不提交它们。
-# 请参阅：https://en.wikipedia.org/wiki/.DS_Store
+# 请参阅: https://en.wikipedia.org/wiki/.DS_Store
 .DS_Store
 
 # 这些是通常针对 Ruby 主题开发人员的遗留模式。我们可能会在以后更改这些。

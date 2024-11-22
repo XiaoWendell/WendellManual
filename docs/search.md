@@ -16,7 +16,7 @@ nav_order: 7
 
 Just the Docs 使用 [lunr.js](https://lunrjs.com) 添加由 Jekyll 生成的 JSON 索引支持的客户端搜索界面。
 所有搜索结果都显示在自动完成样式的界面中（没有搜索结果页面）。
-默认情况下，所有生成的 HTML 页面都使用以下数据点进行索引：
+默认情况下，所有生成的 HTML 页面都使用以下数据点进行索引: 
 
 - 页面标题
 - 页面内容
@@ -24,7 +24,7 @@ Just the Docs 使用 [lunr.js](https://lunrjs.com) 添加由 Jekyll 生成的 JS
 
 ## 在配置中启用搜索
 
-在您网站的 `_config.yml` 中，启用搜索：
+在您网站的 `_config.yml` 中，启用搜索: 
 
 ```yaml
 # Enable or disable the site search

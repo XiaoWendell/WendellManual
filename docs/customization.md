@@ -16,11 +16,11 @@ nav_order: 6
 
 ## 配色方案
 
-Just the Docs 支持两种配色方案：浅色（默认）和深色。
+Just the Docs 支持两种配色方案: 浅色（默认）和深色。
 
-要启用配色方案，请在站点的 `_config.yml` 文件中设置 `color_scheme` 参数：
+要启用配色方案，请在站点的 `_config.yml` 文件中设置 `color_scheme` 参数: 
 
-### 示例：预览深色配色方案
+### 示例: 预览深色配色方案
 
 {: .no_toc .text-delta }
 
