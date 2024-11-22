@@ -1,9 +1,9 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+# 此工作流程使用未经 GitHub 认证的操作。
+# 它们由第三方提供，并受
+# 单独的服务条款、隐私政策和支持
+# 文档的约束。
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# 用于构建和将 Jekyll 站点部署到 GitHub Pages 的示例工作流程
 name: Deploy Jekyll site to Pages
 
 on:

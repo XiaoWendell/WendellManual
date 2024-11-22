@@ -1,0 +1,40 @@
+# Wendell添加
+# 解决在尝试从 RubyGems 镜像（https://gems.ruby-china.com/）获取 gem 数据时，出现了频率限制 (Frequency Capped 514) 的问题。
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - master  # 替换为你的默认分支名，例如 master
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest #  指定 GitHub Actions 运行工作流的虚拟机环境。ubuntu-latest、windows-latest、macos-latest
+
+    steps:
+    - name: Checkout code # 使用 actions/checkout@v3 动作将代码检出到工作目录
+      uses: actions/checkout@v3
+
+    - name: Setup Ruby # 使用 ruby/setup-ruby@v1 动作设置 Ruby 环境
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.3  # 替换为你的 Ruby 版本
+
+    - name: Set RubyGems mirror   # 将 RubyGems 源设置为国内镜像（例如阿里云或其他）。
+      run: bundle config mirror.https://rubygems.org https://mirrors.aliyun.com/rubygems/
+
+    - name: Install dependencies # 使用 bundle install 安装项目所需的 Gem。
+      run: bundle install
+
+    - name: Build the site with Jekyll # 使用 Jekyll 构建站点
+      run: bundle exec jekyll build
+
+    - name: Run HTML Proofer # 检查生成的 HTML 文件是否存在链接或语法问题。
+      run: bundle exec htmlproofer ./_site --ignore-urls "/github.com/,/web.archive.org/"
+
+    - name: Deploy to GitHub Pages # 将生成的站点文件推送到 GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site

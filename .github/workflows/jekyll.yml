@@ -1,9 +1,9 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+# 此工作流程使用未经 GitHub 认证的操作。
+# 它们由第三方提供，并受
+# 单独的服务条款、隐私政策和支持
+# 文档的约束。
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# 用于构建和将 Jekyll 站点部署到 GitHub Pages 的示例工作流程
 name: Deploy Jekyll site to Pages
 
 on:
@@ -36,9 +36,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1' # .ruby-version 文件不需要
+          bundler-cache: true # 运行“bundle install”并自动缓存已安装的 gem
+          cache-version: 0 # 如果需要重新下载缓存的 gem，请增加此数字
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
