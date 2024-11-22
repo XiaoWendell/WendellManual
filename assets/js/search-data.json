@@ -946,21 +946,21 @@
   },"135": {
     "doc": "Home",
     "title": "Wendell专注于编写的文档。",
-    "content": "Just the Docs 可通过一个响应式 Jekyll 主题为您的文档提供快速启动，该主题可轻松定制并托管在 GitHub Pages 上。 . 立即开始 在 GitHub 上查看 . 本网站记录了 Just the Docs 主题当前“主要”分支的功能。请参阅 CHANGELOG 以获取发布、新功能和错误修复的列表。 . Just the Docs 是一个使用 Jekyll 生成静态网站的主题。您可以使用 Markdown、Liquid 模板语言和 HTML 为您的网页编写源文件。1 Jekyll 通过将所有包含 front matter 的文件转换为 HTML 来构建您的网站。您的 [Jekyll 配置] 文件确定要使用哪个主题，并为您的网站设置常规参数，例如其主页的 URL。 . Jekyll 使用主题本身构建此 Just the Docs 主题文档网站。这些网页显示了使用此主题时您的网页默认情况下的外观。但您可以轻松[自定义]主题，使它们看起来完全不同！ . 浏览文档以了解有关如何使用此主题的更多信息。 . ",
+    "content": "Just the Docs 可通过一个响应式 Jekyll 主题为您的文档提供快速启动，该主题可轻松定制并托管在 GitHub Pages 上。 . 立即开始 [在 GitHub 上查看][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 } . 请参阅 CHANGELOG 以获取发布、新功能和错误修复的列表。 . 使用 Markdown、Liquid 模板语言和 HTML 为网页编写源文件。1 Jekyll 通过将所有包含 front matter 的文件转换为 HTML 来构建您的网站。 . 浏览文档以了解有关如何使用此主题的更多信息。 . ",
     "url": "/#wendell%E4%B8%93%E6%B3%A8%E4%BA%8E%E7%BC%96%E5%86%99%E7%9A%84%E6%96%87%E6%A1%A3",
     
     "relUrl": "/#wendell专注于编写的文档"
   },"136": {
     "doc": "Home",
-    "title": "入门",
-    "content": "[Just the Docs 模板] 提供了最简单、最快捷、最轻松的方式来创建使用 Just the Docs 主题的新网站。要开始创建网站，只需单击“[使用模板]”！ . 要使用主题，您不需要克隆或分叉 Just the Docs repo！只有当您打算在本地浏览主题文档、为主题开发做出贡献或基于 Just the Docs 开发新主题时，才应该这样做。 . 您可以轻松地将模板创建的站点设置为在 GitHub Pages 上发布 - [模板 README] 文件解释了如何执行此操作以及其他详细信息。 . 如果您的计算机上安装了 Jekyll，您还可以在本地构建和预览创建的站点。这样，您可以在提交更改之前对其进行测试，从而避免等待 GitHub Pages。2 并且，您将能够将本地构建部署到与 GitHub Pages 不同的平台。 . 更具体地说，创建的站点: . | 使用基于 gem 的方法，即使用 Gemfile 并加载 just-the-docs gem | 使用 [GitHub Pages / Actions 工作流] 在 GitHub Pages 上构建和发布网站 | . 除此之外，您可以随意自定义使用模板创建的网站。您可以轻松更改 just-the-docs 和它使用的 Jekyll 的版本，以及添加更多插件。 . 请参阅主题 README 了解如何将主题用作 gem 而无需创建新网站。 . ",
-    "url": "/#%E5%85%A5%E9%97%A8",
+    "title": "开始",
+    "content": " ",
+    "url": "/#%E5%BC%80%E5%A7%8B",
     
-    "relUrl": "/#入门"
+    "relUrl": "/#开始"
   },"137": {
     "doc": "Home",
     "title": "关于项目",
-    "content": "Just the Docs 是 © 2017-2024，作者是 Patrick Marsceill。 . 许可证 . Just the Docs 采用 MIT 许可证 分发。 . 贡献 . 向此存储库贡献内容时，请先通过问题、 电子邮件或任何其他方式与此存储库的所有者讨论您希望进行的更改，然后再进行更改。在 我们的 GitHub 存储库 中了解有关成为贡献者的更多信息。 . 感谢 Just the Docs 的贡献者！ . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | . 行为准则 . Just the Docs 致力于打造一个热情的社区。 . 在我们的 GitHub 存储库上查看我们的行为准则。 . | The source file for this page uses all three markup languages. &#8617; . | It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub. &#8617; . | . ",
+    "content": "WendellManual 是 © 2017-2024，作者是 Patrick Marsceill。 . 感谢 Just the Docs 的贡献者！ . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | . | 本页 source file for this page 使用了所有三种标记语言。 &#8617; . | . ",
     "url": "/#%E5%85%B3%E4%BA%8E%E9%A1%B9%E7%9B%AE",
     
     "relUrl": "/#关于项目"
