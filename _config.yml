@@ -100,10 +100,10 @@ mermaid:
   # 另请参阅 docs/ui-components/code
   # 要从本地库加载 mermaid，还请使用 `path` 键指定库的位置；例如
   # for (v10+):
-  # path：“/assets/js/mermaid.esm.min.mjs”
+  # path: “/assets/js/mermaid.esm.min.mjs”
   # for (<v10):
-  # path：“/assets/js/mermaid.min.js”
-  # 注意：将 `mermaid.esm.min.mjs`（v10+）或 `mermaid.min.js`（<v10）以及关联的 `.map` 文件从指定版本的 `mermaid/dist` 复制到 `/assets/js/`。
+  # path: “/assets/js/mermaid.min.js”
+  # 注意: 将 `mermaid.esm.min.mjs`（v10+）或 `mermaid.min.js`（<v10）以及关联的 `.map` 文件从指定版本的 `mermaid/dist` 复制到 `/assets/js/`。
 
 # 启用或禁用标题锚点
 heading_anchors: true
@@ -127,7 +127,7 @@ nav_sort: case_sensitive # 大写字母排在小写字母之前
 # 外部导航链接
 nav_external_links:
   - title: Wendell on GitHub
-    url: https://github.com/XiaoWendell/WendellManual
+    url: https://github.com/XiaoWendell
 
 # 显示导航错误报告
 nav_error_report: true # 默认值为 false/nil。
@@ -147,7 +147,7 @@ footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an
 
 # 页脚最后编辑时间戳
 last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
-last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式：https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # 页脚 “在 GitHub 上编辑此页面” 链接文本
 gh_edit_link: true # 显示或隐藏编辑此页面链接
@@ -179,12 +179,13 @@ callouts:
 
 # Google Analytics 跟踪（可选）
 # 支持跟踪 ID 字符串的 CSV（例如“UA-1234567-89,G-1AB234CDE5”）
-# 注意：Just the Docs 主站点*不*使用 Google Analytics。
-# ga_tracking：UA-2709176-10,G-5FG1HLH3XQ
-# ga_tracking_anonymize_ip：true # 使用符合 GDPR 的 Google Analytics 设置（默认为 true/nil）
+# 注意: Just the Docs 主站点*不*使用 Google Analytics。
+# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+# ga_tracking_anonymize_ip: true # 使用符合 GDPR 的 Google Analytics 设置（默认为 true/nil）
 
 # Google Analytics 跟踪（可选）
-
+ga_tracking: G-EFC4LK52FZ
+ga_tracking_anonymize_ip: true # 使用符合 GDPR 的 Google Analytics 设置（默认为 true/nil）
 
 
 plugins: # 插件，用于生成站点

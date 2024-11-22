@@ -11,7 +11,7 @@ nav_order: 2
 ## Example Auxiliary Link
 {: .text-delta }
 
-该网站有一个辅助链接：“Just the Docs on GitHub”。它使用以下代码呈现：
+该网站有一个辅助链接: “Just the Docs on GitHub”。它使用以下代码呈现: 
 
 ```yaml
 aux_links:

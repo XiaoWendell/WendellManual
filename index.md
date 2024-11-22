@@ -37,7 +37,7 @@ Jekyll 使用主题本身构建此 Just the Docs 主题文档网站。这些网�
 
 如果您的计算机上安装了 [Jekyll]，您还可以在*本地*构建和预览创建的站点。这样，您可以在提交更改之前对其进行测试，从而避免等待 GitHub Pages。[^2] 并且，您将能够将本地构建部署到与 GitHub Pages 不同的平台。
 
-更具体地说，创建的站点：
+更具体地说，创建的站点: 
 
 - 使用基于 gem 的方法，即使用 `Gemfile` 并加载 `just-the-docs` gem
 - 使用 [GitHub Pages / Actions 工作流] 在 GitHub Pages 上构建和发布网站
