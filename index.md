@@ -2,47 +2,61 @@
 title: 首页
 layout: home
 nav_order: 1
-description: “具有内置搜索功能”
+description: 具有内置搜索功能的文档平台
 permalink: /
 ---
 
-# Wendell专注于编写的文档。
+# Wendell 专注于高质量文档编写
 {: .fs-9 }
 
--... ..- - -....- .... . -....- .- .-.. .-. . .- -.. -.-- -....- .... .- ... -....- .... .. ... -....- .-. --- ... . 
+-... ..- - -....- .... . -....- .- .-.. .-. . .- -.. -.-- -....- .... .- ... -....- .... .. ... -....- .-. --- ... .
 {: .fs-6 .fw-300 }
 
 [立即开始](#开始){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[在 GitHub 上查看][WendellManual]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[在 GitHub 上查看](https://github.com/XiaoWendell/WendellManual){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 {: .warning }
-> 请参阅 [CHANGELOG]({% link CHANGELOG.md %}) 以获取发布、新功能和错误修复的列表。
+> **提示：** 请参阅 [更新日志]({% link CHANGELOG.md %}) 了解最新发布、功能更新和错误修复。
 
-使用 [Markdown]、[Liquid] 模板语言和 HTML 为网页编写源文件。[^1] Jekyll 通过将所有包含 [front matter] 的文件转换为 HTML 来构建您的网站。
+通过使用 [Markdown]、[Liquid] 模板语言和 HTML 编写源文件，轻松构建专业级文档平台。[^1]  
+Jekyll 会自动将包含 [front matter] 的文件转换为 HTML，从而生成完整的网站。
 
-浏览文档以了解有关如何使用此主题的更多信息。
+浏览文档以了解如何使用此主题的更多信息。
 
-# 开始
-## 关于项目
+---
 
-WendellManual 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Marsceill](https://patrickmarsceill.com)。
+## 开始
+### 关于项目
 
-### 感谢 Just the Docs 的贡献者！
+WendellManual 是由 &copy; 2017-{{ "now" | date: "%Y" }} 创建，项目作者是 [Patrick Marsceill](https://patrickmarsceill.com)。
+
+#### 特别感谢 Just the Docs 的贡献者
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
+    <a href="{{ contributor.html_url }}">
+      <img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}">
+    </a>
   </li>
 {% endfor %}
 </ul>
 
-----
+---
 
-[^1]: 本页 [source file for this page] 使用了所有三种标记语言。
+[^1]: 本页面的 [源文件](https://github.com/XiaoWendell/WendellManual/blob/master/index.md) 使用了 Markdown、Liquid 和 HTML。
 
-[source file for this page]: https://github.com/XiaoWendell/WendellManual/blob/master/index.md
+---
+
+### 相关链接
+- [Jekyll 官方文档][Jekyll]
+- [Markdown 指南][Markdown]
+- [Liquid 模板语言][Liquid]
+- [Front Matter 说明][Front matter]
+- [Jekyll 配置指南][Jekyll configuration]
+- [GitHub Pages 教程][GitHub Pages]
+- [GitHub Actions 工作流][GitHub Pages / Actions workflow]
 
 [Jekyll]: https://jekyllrb.com
 [Markdown]: https://daringfireball.net/projects/markdown/
@@ -51,5 +65,3 @@ WendellManual 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Mars
 [Jekyll configuration]: https://jekyllrb.com/docs/configuration/
 [GitHub Pages]: https://pages.github.com/
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-
-[WendellManual]: https://github.com/XiaoWendell/WendellManual
