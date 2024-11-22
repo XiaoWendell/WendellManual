@@ -1,11 +1,11 @@
 ---
 layout: minimal
-title: Minimal layout test
+title: 最小布局测试
 nav_exclude: true
 ---
 
-# Minimal Layout Test Page
+# 最小布局测试页面
 
-[Return to main website]({{site.baseurl}}/).
+[返回主网站]({{site.baseurl}}/)。
 
-This page demonstrates the packaged `minimal` layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see ["Custom layouts and includes" in the customization docs]({{site.baseurl}}/docs/customization/#custom-layouts-and-includes) for more information.
+此页面演示了打包的“最小”布局，它不呈现侧边栏或标题。它可用于独立页面。它也是使用新的模块化站点组件定义自定义布局的示例；有关更多信息，请参阅[自定义文档中的“自定义布局和包含”]({{site.baseurl}}/docs/customization/#custom-layouts-and-includes)。

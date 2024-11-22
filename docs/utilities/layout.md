@@ -1,12 +1,12 @@
 ---
-title: Layout
+title: 布局
 parent: 实用工具
 ---
 
-# Layout Utilities
+# 布局实用程序
 {: .no_toc }
 
-## Table of contents
+## 目录
 {: .no_toc .text-delta }
 
 1. TOC
@@ -14,10 +14,9 @@ parent: 实用工具
 
 ---
 
-## Spacing
+## 间距
 
-These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively.
-
+这些间隔符可用于响应式实用程序类的边距和填充。将这些前缀与屏幕尺寸和间距比例相结合，即可响应式地使用它们。
 | Classname prefix | Related CSS Property          |
 |:-----------------|:------------------------------|
 | `.m-`            | `margin`                      |

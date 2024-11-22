@@ -3,13 +3,13 @@ title: 配置
 nav_order: 2
 ---
 
-# Configuration
+# 配置
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+Just the Docs 有一些特定的配置参数，可以在您的 Jekyll 站点的 \_config.yml 文件中定义。
 {: .fs-6 .fw-300 }
 
-## Table of contents
+## 目录
 {: .no_toc .text-delta }
 
 1. TOC
@@ -17,7 +17,7 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+查看此站点的 [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) 文件作为示例。
 
 ## Site logo
 

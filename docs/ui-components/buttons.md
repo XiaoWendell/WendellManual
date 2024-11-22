@@ -1,13 +1,13 @@
 ---
-title: Buttons
-parent: UI Components
+title: 按钮
+parent: UI 组件
 nav_order: 2
 ---
 
-# Buttons
+# 按钮
 {: .no_toc }
 
-## Table of contents
+## 目录
 {: .no_toc .text-delta }
 
 1. TOC

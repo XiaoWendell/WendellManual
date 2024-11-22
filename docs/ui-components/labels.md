@@ -1,12 +1,12 @@
 ---
-title: Labels
-parent: UI Components
+title: 标签
+parent: UI 组件
 nav_order: 3
 ---
 
-# Labels
+# 标签
 
-Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue.
+使用标签为文档的某个部分添加额外标记。标签有几种颜色。默认情况下，标签为蓝色。
 
 <div class="code-example" markdown="1">
 Default label

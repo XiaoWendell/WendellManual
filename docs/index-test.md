@@ -1,5 +1,5 @@
 ---
-title: Markdown kitchen sink
+title: Markdown 示例大全
 nav_order: 99
 ---
 
@@ -19,25 +19,25 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+文本可以是**粗体**、_斜体_ 或~~删除线~~。
 
-[Link to another page]({{site.baseurl}}/).
+[链接到另一个页面]({{site.baseurl}}/)。
 
-There should be whitespace between paragraphs.
+段落之间应该有空格。
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+段落之间应该有空格。我们建议包含 README 或包含有关您的项目的信息的文件。
 
-# Header 1
+# 标题 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+这是标题后面的普通段落。GitHub 是一个用于版本控制和协作的代码托管平台。它允许您和其他人从任何地方共同完成项目。
 
-## Header 2
+## 标题 2
 
-> This is a blockquote following a header.
+> 这是标题后面的块引用。
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> 当某件事足够重要时，即使胜算不大，您也会去做。
 
-### Header 3
+### 标题 3
 
 ```js
 // Javascript code with syntax highlighting.
@@ -54,25 +54,23 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4 `with code not transformed`
+#### 标题 4 `代码未转换`
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+* 这是一个标题后面的无序列表。
+* 这是一个标题后面的无序列表。
+* 这是一个标题后面的无序列表。
 
-##### Header 5
+##### 标题 5
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1. 这是一个标题后面的有序列表。
+2. 这是一个标题后面的有序列表。
+3. 这是一个标题后面的有序列表。
 
-###### Header 6
+###### 标题 6
 
-[This is a very long link which wraps and therefore doesn't overflow
-even when it comes at the beginning](.) of the line.
+[这是一个非常长的链接，它会换行，因此即使它位于行首](.) 也不会溢出。
 
-- [This is a very long link which wraps and therefore doesn't overflow the line
-  when used first in an item ](.) in a list.
+- [这是一个非常长的链接，它会换行，因此在列表中第一个项目 ](.) 中使用时不会溢出行。
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -81,44 +79,43 @@ even when it comes at the beginning](.) of the line.
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
+### 下方有一条水平线。
 
 * * *
 
-### Here is an unordered list:
+### 这是一个无序列表：
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* 项目 foo
+* 项目 bar
+* 项目 baz
+* 项目 zip
 
-### And an ordered list:
+### 有序列表：
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+1. 项目一
+1. 项目二
+1. 项目三
+1. 项目四
 
-### And an ordered list, continued:
+### 有序列表，继续：
 
-1.  Item one
-1.  Item two
+1. 项目一
+1. 项目二
 
-Some text
+一些文本
 
 {:style="counter-reset:none"}
-1.  Item three
-1.  Item four
+1. 项目三
+1. 项目四
 
-### And an ordered list starting from 42:
+### 有序列表从 42 开始：
 
 {:style="counter-reset:step-counter 41"}
-1.  Item 42
-1.  Item 43
-1.  Item 44
+1. 项目 42
+1. 项目 43
+1. 项目 44
 
-### And a nested list:
-
+### 嵌套列表：
 - level 1 item
   - level 2 item
   - level 2 item
@@ -133,7 +130,7 @@ Some text
   - level 2 item
 - level 1 item
 
-### Nesting an ol in ul in an ol
+### 将 ol 嵌套在 ul 中
 
 - level 1 item (ul)
   1. level 2 item (ol)
@@ -150,113 +147,112 @@ Some text
     - level 3 item (ul)
     - level 3 item (ul)
 - level 1 item (ul)
+### 任务列表
 
-### And a task list
+- [ ] 你好，这是一个待办事项
+- [ ] 你好，这是另一个待办事项
+- [x] 再见，这个事项已完成
 
-- [ ] Hello, this is a TODO item
-- [ ] Hello, this is another TODO item
-- [x] Goodbye, this item is done
+### 嵌套任务列表
 
-### Nesting task lists
+- [ ] 一级项目（任务）
+  - [ ] 二级项目（任务）
+  - [ ] 二级项目（任务）
+- [ ] 一级项目（任务）
+- [ ] 一级项目（任务）
 
-- [ ] level 1 item (task)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
+### 在任务列表中嵌套无序列表
 
-### Nesting a ul in a task list
+- [ ] 一级项目（任务）
+  - 二级项目（无序列表）
+  - 二级项目（无序列表）
+- [ ] 一级项目（任务）
+- [ ] 一级项目（任务）
 
-- [ ] level 1 item (task)
-   - level 2 item (ul)
-   - level 2 item (ul)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
+### 在无序列表中嵌套任务列表
 
-### Nesting a task list in a ul
+- 一级项目（无序列表）
+  - [ ] 二级项目（任务）
+  - [ ] 二级项目（任务）
+- 一级项目（无序列表）
+- 一级项目（无序列表）
 
-- level 1 item (ul)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- level 1 item (ul)
-- level 1 item (ul)
-
-### Small image
+### 小图片
 
 ![](../../assets/images/small-image.jpg)
 
-### Large image
+### 大图片
 
 ![](../../assets/images/large-image.jpg)
 
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
+"[弗罗茨瓦夫大学图书馆数字化稀有档案文本](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
 
-### Labels
+### 标签
 
-I'm a label
+我是一个标签
 {: .label }
 
-blue
+蓝色
 {: .label .label-blue }
-green
+绿色
 {: .label .label-green }
-purple
+紫色
 {: .label .label-purple }
-yellow
+黄色
 {: .label .label-yellow }
-red
+红色
 {: .label .label-red }
 
-**bold**
+**粗体**
 {: .label }
-*italic*
+*斜体*
 {: .label }
-***bold + italic***
+***粗体 + 斜体***
 {: .label }
 
-### Definition lists can be used with HTML syntax.
+### 定义列表可以使用 HTML 语法。
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
+<dt>名字</dt>
+<dd>哥斯拉</dd>
+<dt>出生</dt>
 <dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>出生地</dt>
+<dd>日本</dd>
+<dt>颜色</dt>
+<dd>绿色</dd>
 </dl>
 
-#### Multiple description terms and values
+#### 多个描述术语和值
 
-Term
-: Brief description of Term
+术语
+: 术语的简短描述
 
-Longer Term
-: Longer description of Term,
-  possibly more than one line
+较长的术语
+: 较长的术语描述，
+  可能不止一行
 
-Term
-: First description of Term,
-  possibly more than one line
+术语
+: 术语的第一个描述，
+  可能不止一行
 
-: Second description of Term,
-  possibly more than one line
+: 术语的第二个描述，
+  可能不止一行
 
-Term1
-Term2
-: Single description of Term1 and Term2,
-  possibly more than one line
+术语1
+术语2
+: 术语1和术语2的单一描述，
+  可能不止一行
 
-Term1
-Term2
-: First description of Term1 and Term2,
-  possibly more than one line
+术语1
+术语2
+: 术语1和术语2的第一个描述，
+  可能不止一行
 
-: Second description of Term1 and Term2,
-  possibly more than one line
+: 术语1和术语2的第二个描述，
+  可能不止一行
 
-### More code
+### 更多代码
 
 ```python{% raw %}
 def dump_args(func):
@@ -294,34 +290,35 @@ class conditions(object):
 {% endraw %}```
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+长的单行代码块不应换行。如果它们太长，则应水平滚动。这行代码应该足够长以演示这一点。
 ```
 
-### Mermaid Diagrams
+### Mermaid 图表
 
-The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
+以下代码仅在 `_config.yml` 中提供 `mermaid` 键时显示为图表。
 
 ```mermaid
 graph TD;
-    accTitle: the diamond pattern
-    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+  accTitle: the diamond pattern
+  accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
 
-### Collapsed Section
+### 折叠部分
 
-The following uses the [`<details>`](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) tag to create a collapsed section.
+以下使用 [`<details>`](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) 标签创建一个折叠部分。
 
 <details markdown="block">
-<summary>Shopping list (click me!)</summary>
+<summary>购物清单（点击我！）</summary>
 
-This is content inside a `<details>` dropdown.
+这是 `<details>` 下拉菜单中的内容。
 
-- [ ] Apples
-- [ ] Oranges
-- [ ] Milk
+- [ ] 苹果
+- [ ] 橙子
+- [ ] 牛奶
 
 </details>
+```

@@ -1,3 +1,3 @@
-# Test Fixtures
+# 测试装置
 
-These files are used by Just the Docs maintainers to test *the theme itself*. **If you are using Just the Docs as a theme, you should not copy these files over.**
+这些文件由 Just the Docs 维护者用来测试*主题本身*。**如果您使用 Just the Docs 作为主题，则不应复制这些文件。**

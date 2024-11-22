@@ -1,23 +1,23 @@
 ---
-title: Callouts
-parent: UI Components
+title: 标注
+parent: UI 组件
 nav_order: 7
 ---
 
-# Callouts
+# 标注
 {: .d-inline-block }
 
-New (v0.4.0)
+新 (v0.4.0)
 {: .label .label-green }
 
-Markdown does not include support for callouts. However, you can style text as a callout using a Markdown extension supported by kramdown: [*block IALs*](https://kramdown.gettalong.org/quickref.html#block-attributes).
+Markdown 不支持标注。但是，您可以使用 kramdown 支持的 Markdown 扩展将文本样式设置为标注：[*block IALs*](https://kramdown.gettalong.org/quickref.html#block-attributes)。
 
-Common kinds of callouts include `highlight`, `important`, `new`, `note`, and `warning`.
+常见的标注类型包括 `highlight`、`important`、`new`、`note` 和 `warning`。
 
 {: .warning }
-These callout names are *not* pre-defined by the theme: you need to define your own names.
+这些标注名称*不是*由主题预先定义的：您需要定义自己的名称。
 
-When you have [configured]({% link docs/configuration.md %}#callouts) the  `color` and (optional) `title` for a callout, you can apply it to a paragraph, or to a block quote with several paragraphs, as illustrated below.[^postfix]
+当你 [配置]({% link docs/configuration.md %}#callouts) 标注的 `color` 和 (可选) `title` 后，你可以将其应用到段落，或者应用到包含多个段落的引用块，如下图所示。[^postfix]
 
 [^postfix]:
     You can put the callout markup either before or after its content.

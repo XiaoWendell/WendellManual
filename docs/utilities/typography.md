@@ -1,12 +1,12 @@
 ---
-title: Typography
+title: 排版
 parent: 实用工具
 ---
 
-# Typography Utilities
+# 排版实用工具
 {: .no_toc }
 
-## Table of contents
+## 目录
 {: .no_toc .text-delta }
 
 1. TOC

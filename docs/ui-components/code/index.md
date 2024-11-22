@@ -1,6 +1,6 @@
 ---
-title: Code
-parent: UI Components
+title: 代码
+parent: UI 组件
 nav_order: 6
 ---
 

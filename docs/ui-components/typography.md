@@ -1,6 +1,6 @@
 ---
-title: Typography
-parent: UI Components
+title: 排版
+parent: UI 组件
 nav_order: 1
 ---
 

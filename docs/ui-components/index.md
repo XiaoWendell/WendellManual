@@ -1,9 +1,9 @@
 ---
-title: UI Components
-nav_order: 3
+title：UI 组件
+nav_order：3
 ---
 
-# UI Components
+# UI 组件
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
+为了尽可能轻松地用纯 Markdown 编写文档，大多数 UI 组件都使用默认 Markdown 元素进行样式设置，只需添加一些额外的 CSS 类。
+{：.fs-6 .fw-300 }

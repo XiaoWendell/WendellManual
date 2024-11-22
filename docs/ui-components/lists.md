@@ -1,6 +1,6 @@
 ---
-title: Lists
-parent: UI Components
+title: 列表
+parent: UI 组件
 nav_order: 5
 ---
 

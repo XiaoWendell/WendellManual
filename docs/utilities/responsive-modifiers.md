@@ -1,11 +1,11 @@
 ---
-title: Responsive Modifiers
+title: 响应式修饰符
 parent: 实用工具
 ---
 
-# Responsive modifiers
+# 响应式修饰符
 
-Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes.
+Just the Docs 间距可与各种修饰符配合使用，让您能够响应式地定位特定屏幕尺寸。将这些修饰符与间距配合使用，并显示前缀和后缀类。
 
 | Modifier  | Screen size                          |
 |:----------|:-------------------------------------|

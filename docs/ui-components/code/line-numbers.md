@@ -1,6 +1,6 @@
 ---
-title: Line Numbers
-parent: Code
+title: 行号
+parent: 代码
 ---
 
 # Code Snippets with Line Numbers
