@@ -42,7 +42,8 @@ WendellManual 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Mars
 
 [^1]: 本页 [source file for this page] 使用了所有三种标记语言。
 
-[source file for this page]: https://github.com/XiaoWendell/WendellManual/blob/main/index.md
+[source file for this page]: https://github.com/XiaoWendell/WendellManual/blob/master/index.md
+
 [Jekyll]: https://jekyllrb.com
 [Markdown]: https://daringfireball.net/projects/markdown/
 [Liquid]: https://github.com/Shopify/liquid/wiki
