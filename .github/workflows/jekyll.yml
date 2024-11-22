@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.1' # .ruby-version 文件不需要
+          ruby-version: '3.3' # .ruby-version 文件不需要
           bundler-cache: true # 运行“bundle install”并自动缓存已安装的 gem
           cache-version: 0 # 如果需要重新下载缓存的 gem，请增加此数字
       - name: Setup Pages
