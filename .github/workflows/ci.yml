@@ -21,20 +21,26 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2" # 使用你项目的 Ruby 版本
+          ruby-version: "3.2" # 使用你项目的 Ruby 版本  [3.9, 4.3]
           bundler-cache: true # 缓存 Bundler 依赖
 
-      # Step 3: 安装 Jekyll 依赖
+      # Step 3: 安装特定版本的 Jekyll
+      - name: Install Jekyll 4.3
+        run: |
+          gem install jekyll -v 4.3
+        # 这里指定你想要的 Jekyll 版本 [3.9, 4.3]
+  
+      # Step 4: 安装 Jekyll 依赖
       - name: Install Dependencies
         run: |
           bundle install
           bundle exec rake search:init
 
-      # Step 4: 构建 Jekyll 网站
+      # Step 5: 构建 Jekyll 网站
       - name: Build Site
         run: bundle exec jekyll build
 
-      # Step 5: 验证生成的 HTML
+      # Step 6: 验证生成的 HTML
       - name: Validate HTML
         run: |
           bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
