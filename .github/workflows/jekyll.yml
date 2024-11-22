@@ -59,9 +59,8 @@ jobs:
       #     ref: ${{ github.sha }}
 
       - name: Wait for 30 seconds
-        uses: actions/wait@v1
-        with:
-          time: 30
+        run: sleep 30
+
 
 
 
