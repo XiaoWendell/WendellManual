@@ -1,5 +1,5 @@
 ---
-title: In-Page Navigation
+title: 页内导航
 parent: 导航
 nav_order: 5
 ---

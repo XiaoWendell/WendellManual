@@ -1,5 +1,5 @@
 ---
-title: Child Pages
+title: 子页面
 parent: 导航
 nav_order: 4
 ---

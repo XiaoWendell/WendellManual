@@ -1,5 +1,5 @@
 ---
-title: Auxiliary Links
+title: 辅助链接
 parent: 导航
 nav_order: 2
 ---
