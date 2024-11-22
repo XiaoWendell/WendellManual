@@ -1,5 +1,5 @@
-source "https://rubygems.org"
-# source "https://gems.ruby-china.com/"     # 使用国内镜像
+# source "https://rubygems.org"
+source "https://gems.ruby-china.com/"     # 使用国内镜像
 
 gemspec
 
