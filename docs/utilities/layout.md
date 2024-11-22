@@ -14,7 +14,7 @@ parent: 实用工具
 
 ---
 
-## 间距
+## spacing
 
 这些间隔符可用于响应式实用程序类的边距和填充。将这些前缀与屏幕尺寸和间距比例相结合，即可响应式地使用它们。
 | Classname prefix | Related CSS Property          |
