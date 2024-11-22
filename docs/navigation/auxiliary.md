@@ -1,6 +1,6 @@
 ---
 title: Auxiliary Links
-parent: Navigation
+parent: 导航
 nav_order: 2
 ---
 

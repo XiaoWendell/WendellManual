@@ -1,5 +1,5 @@
 ---
-title: Default layout child page
+title: 默认布局子页面
 layout: default
 parent: A minimal layout page
 grand_parent: Layout

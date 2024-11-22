@@ -1,6 +1,6 @@
 ---
 title: Color
-parent: Utilities
+parent: 实用工具
 ---
 
 # Color Utilities

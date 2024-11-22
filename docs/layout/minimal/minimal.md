@@ -1,5 +1,5 @@
 ---
-title: A minimal layout page
+title: 最小布局页面
 layout: minimal
 parent: Layout
 ---

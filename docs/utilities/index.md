@@ -1,10 +1,10 @@
 ---
-title: Utilities
+title: 实用工具
 nav_order: 4
 ---
 
 # Utilities
 {: .no_toc }
 
-CSS utility classes come in handy when you want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.
+当您想要覆盖默认样式以创建额外的空白（边距/填充）、纠正字体大小或粗细的意外变化、添加颜色或在特定屏幕尺寸下隐藏（或显示）某些内容时，CSS 实用程序类会派上用场。
 {: .fs-6 .fw-300 }

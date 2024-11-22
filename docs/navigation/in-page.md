@@ -1,6 +1,6 @@
 ---
 title: In-Page Navigation
-parent: Navigation
+parent: 导航
 nav_order: 5
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 首页
 layout: home
 nav_order: 1
 description: “具有内置搜索功能”

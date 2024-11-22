@@ -1,6 +1,6 @@
 ---
 title: Child Pages
-parent: Navigation
+parent: 导航
 nav_order: 4
 ---
 

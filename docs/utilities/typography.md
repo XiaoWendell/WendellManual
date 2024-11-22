@@ -1,6 +1,6 @@
 ---
 title: Typography
-parent: Utilities
+parent: 实用工具
 ---
 
 # Typography Utilities

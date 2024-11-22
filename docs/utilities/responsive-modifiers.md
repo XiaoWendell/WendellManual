@@ -1,6 +1,6 @@
 ---
 title: Responsive Modifiers
-parent: Utilities
+parent: 实用工具
 ---
 
 # Responsive modifiers

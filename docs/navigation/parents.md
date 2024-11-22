@@ -1,6 +1,6 @@
 ---
 title: Breadcrumbs
-parent: Navigation 
+parent: 导航
 nav_order: 3
 ---
 
