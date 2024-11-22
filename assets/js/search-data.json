@@ -393,7 +393,7 @@
   },"56": {
     "doc": "Auxiliary Links",
     "title": "Example Auxiliary Link",
-    "content": "该网站有一个辅助链接：“Just the Docs on GitHub”。它使用以下代码呈现： . aux_links: Just the Docs on GitHub: - https://github.com/just-the-docs/just-the-docs . ",
+    "content": "该网站有一个辅助链接: “Just the Docs on GitHub”。它使用以下代码呈现: . aux_links: Just the Docs on GitHub: - https://github.com/just-the-docs/just-the-docs . ",
     "url": "/docs/navigation/auxiliary/#example-auxiliary-link",
     
     "relUrl": "/docs/navigation/auxiliary/#example-auxiliary-link"
@@ -939,7 +939,7 @@
   },"134": {
     "doc": "Navigation",
     "title": "Navigation",
-    "content": "默认页面布局支持各种导航功能： . | 主导航（main navigation） 面板，突出显示当前选定的页面； | 一个 辅助（auxiliary） 链接列表，显示在所有页面上； | breadcrumbs列表,显示在除顶级页面之外的所有页面上； | 指向子页面（child pages）（所谓的“目录”）的可选链接列表；以及 | 用于页内导航（in-page navigation）的部分标题链接，带有可选的返回顶部（back-to-top）链接。 | . 请参阅以下页面以了解如何指定这些功能以及说明性示例。 . ",
+    "content": "默认页面布局支持各种导航功能: . | 主导航（main navigation） 面板，突出显示当前选定的页面； | 一个 辅助（auxiliary） 链接列表，显示在所有页面上； | breadcrumbs列表,显示在除顶级页面之外的所有页面上； | 指向子页面（child pages）（所谓的“目录”）的可选链接列表；以及 | 用于页内导航（in-page navigation）的部分标题链接，带有可选的返回顶部（back-to-top）链接。 | . 请参阅以下页面以了解如何指定这些功能以及说明性示例。 . ",
     "url": "/docs/navigation/",
     
     "relUrl": "/docs/navigation/"
@@ -953,7 +953,7 @@
   },"136": {
     "doc": "Home",
     "title": "入门",
-    "content": "[Just the Docs 模板] 提供了最简单、最快捷、最轻松的方式来创建使用 Just the Docs 主题的新网站。要开始创建网站，只需单击“[使用模板]”！ . 要使用主题，您不需要克隆或分叉 Just the Docs repo！只有当您打算在本地浏览主题文档、为主题开发做出贡献或基于 Just the Docs 开发新主题时，才应该这样做。 . 您可以轻松地将模板创建的站点设置为在 GitHub Pages 上发布 - [模板 README] 文件解释了如何执行此操作以及其他详细信息。 . 如果您的计算机上安装了 Jekyll，您还可以在本地构建和预览创建的站点。这样，您可以在提交更改之前对其进行测试，从而避免等待 GitHub Pages。2 并且，您将能够将本地构建部署到与 GitHub Pages 不同的平台。 . 更具体地说，创建的站点： . | 使用基于 gem 的方法，即使用 Gemfile 并加载 just-the-docs gem | 使用 [GitHub Pages / Actions 工作流] 在 GitHub Pages 上构建和发布网站 | . 除此之外，您可以随意自定义使用模板创建的网站。您可以轻松更改 just-the-docs 和它使用的 Jekyll 的版本，以及添加更多插件。 . 请参阅主题 README 了解如何将主题用作 gem 而无需创建新网站。 . ",
+    "content": "[Just the Docs 模板] 提供了最简单、最快捷、最轻松的方式来创建使用 Just the Docs 主题的新网站。要开始创建网站，只需单击“[使用模板]”！ . 要使用主题，您不需要克隆或分叉 Just the Docs repo！只有当您打算在本地浏览主题文档、为主题开发做出贡献或基于 Just the Docs 开发新主题时，才应该这样做。 . 您可以轻松地将模板创建的站点设置为在 GitHub Pages 上发布 - [模板 README] 文件解释了如何执行此操作以及其他详细信息。 . 如果您的计算机上安装了 Jekyll，您还可以在本地构建和预览创建的站点。这样，您可以在提交更改之前对其进行测试，从而避免等待 GitHub Pages。2 并且，您将能够将本地构建部署到与 GitHub Pages 不同的平台。 . 更具体地说，创建的站点: . | 使用基于 gem 的方法，即使用 Gemfile 并加载 just-the-docs gem | 使用 [GitHub Pages / Actions 工作流] 在 GitHub Pages 上构建和发布网站 | . 除此之外，您可以随意自定义使用模板创建的网站。您可以轻松更改 just-the-docs 和它使用的 Jekyll 的版本，以及添加更多插件。 . 请参阅主题 README 了解如何将主题用作 gem 而无需创建新网站。 . ",
     "url": "/#%E5%85%A5%E9%97%A8",
     
     "relUrl": "/#入门"
