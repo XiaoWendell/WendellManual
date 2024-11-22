@@ -52,8 +52,7 @@ Jekyll 使用主题本身构建此 Just the Docs 主题文档网站。这些网�
 Just the Docs 是 &copy; 2017-{{ "now" | date: "%Y" }}，作者是 [Patrick Marsceill](https://patrickmarsceill.com)。
 
 ### 许可证
-Just the Docs 采用 [MIT 许可证](https://github.com/XiaoWendell/WendellManual
-P/tree/master/LICENSE.txt) 分发。
+Just the Docs 采用 [MIT 许可证](https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt) 分发。
 
 ### 贡献
 
@@ -73,8 +72,7 @@ P/tree/master/LICENSE.txt) 分发。
 
 Just the Docs 致力于打造一个热情的社区。
 
-[在我们的 GitHub 存储库上查看我们的行为准则](https://github.com/XiaoWendell/WendellManual
-P/tree/master/CODE_OF_CONDUCT.md)。
+[在我们的 GitHub 存储库上查看我们的行为准则](https://github.com/XiaoWendell/WendellManual/tree/master/CODE_OF_CONDUCT.md)。
 
 ----
 
