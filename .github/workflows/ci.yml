@@ -71,8 +71,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          bundler-cache: true # 运行“bundle install”并自动缓存已安装的 gem
+          cache-version: 0 # 如果需要重新下载缓存的 gem，请增加这个数字
       - name: Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v3
