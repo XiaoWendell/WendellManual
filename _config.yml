@@ -95,11 +95,13 @@ enable_copy_code_button: true
 mermaid:
   # mermaid 库的版本
   # 从 https://cdn.jsdelivr.net/npm/mermaid/ 中选择一个可用版本
-  version: "9.1.6"
+  version: "11.4.0"
   # 将任何其他配置（例如设置主题）放入 _includes/mermaid_config.js 中
   # 另请参阅 docs/ui-components/code
+
   # 要从本地库加载 mermaid，还请使用 `path` 键指定库的位置；例如
   # for (v10+):
+  path: "  assets/files/mermaid-11.4.0/package/dist/mermaid.esm.min.mjs"
   # path: “/assets/js/mermaid.esm.min.mjs”
   # for (<v10):
   # path: “/assets/js/mermaid.min.js”
