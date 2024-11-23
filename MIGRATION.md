@@ -1,5 +1,5 @@
 ---
-title: Migration and Upgrading
+title: 迁移和升级
 layout: default
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CHANGELOG
+title: 变更日志
 layout: default
 ---
 
