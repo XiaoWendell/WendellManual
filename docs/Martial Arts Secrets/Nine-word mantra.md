@@ -1,7 +1,7 @@
 ---
 title: 九字真言
 parent: 武林秘籍
-nav_order: 1
+nav_order: 2
 ---
 
 # 九字真言手印
