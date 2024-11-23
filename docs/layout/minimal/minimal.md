@@ -1,7 +1,7 @@
 ---
 title: 最小布局页面
 layout: minimal
-parent: Layout
+parent: 布局
 ---
 
 # 最小布局页面

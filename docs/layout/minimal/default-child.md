@@ -1,8 +1,8 @@
 ---
 title: 默认布局子页面
 layout: default
-parent: A minimal layout page
-grand_parent: Layout
+parent: 最小布局页面
+grand_parent: 布局
 ---
 
 # 最小布局页面
