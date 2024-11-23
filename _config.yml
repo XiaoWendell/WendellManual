@@ -101,7 +101,7 @@ mermaid:
 
   # 要从本地库加载 mermaid，还请使用 `path` 键指定库的位置；例如
   # for (v10+):
-  # path: "  assets/files/mermaid-11.4.0/package/dist/mermaid.esm.min.mjs"(bug)
+  path: "assets/files/mermaid-11.4.0/package/dist/mermaid.esm.min.mjs"
   # path: “/assets/js/mermaid.esm.min.mjs”
   # for (<v10):
   # path: “/assets/js/mermaid.min.js”
