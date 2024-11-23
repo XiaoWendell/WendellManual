@@ -146,7 +146,7 @@ back_to_top: true
 back_to_top_text: "返回顶部"
 
 # 页脚内容
-footer_content: '版权所有 &copy; 2017-2025 Wendell。由 <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT 许可证分发。</a> <a href="https://www.netlify.com/">本网站由 Netlify 提供支持。</a>'
+footer_content: '版权所有 &copy; 2017-2025 <a href="https://github.com/XiaoWendell">Wendell</a>。由 <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT 许可证</a> 分发。本网站由 <a href="https://www.netlify.com/">Netlify</a> 提供支持。'
 # 页脚最后编辑时间戳
 last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
 last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
