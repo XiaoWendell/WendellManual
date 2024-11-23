@@ -55,7 +55,7 @@ GitHub Flavored Markdown does not support the `button` element, so you'll have t
 
 ### Button size
 
-Wrap the button in a container that uses the [font-size utility classes]({% link docs/使用指南/utilities/typography.md %}) to scale buttons:
+Wrap the button in a container that uses the [font-size utility classes]({% link docs/Usage Guidelines/utilities/typography.md %}) to scale buttons:
 
 <div class="code-example" markdown="1">
 <span class="fs-6">
@@ -78,7 +78,7 @@ Wrap the button in a container that uses the [font-size utility classes]({% link
 
 ### Spacing between buttons
 
-Use the [margin utility classes]({% link docs/使用指南/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
+Use the [margin utility classes]({% link docs/Usage Guidelines/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
 
 <div class="code-example" markdown="1">
 [Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 }

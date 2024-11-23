@@ -6,7 +6,7 @@ nav_order: 3
 
 # Page Levels
 
-Sometimes you will want to create a page with many children. First, it is recommended that you store related pages together in a directory. For example, in these docs, we keep all of the written documentation pages in the `./docs` directory, and each of the sections in subdirectories like `./docs/使用指南/ui-components` and `./docs/使用指南/utilities`. This gives us an organization like this:
+Sometimes you will want to create a page with many children. First, it is recommended that you store related pages together in a directory. For example, in these docs, we keep all of the written documentation pages in the `./docs` directory, and each of the sections in subdirectories like `./docs/Usage Guidelines/ui-components` and `./docs/Usage Guidelines/utilities`. This gives us an organization like this:
 
 {: .lh-0 }
 ```
@@ -41,7 +41,7 @@ nav_order: 3
 ---
 ```
 
-Here we're setting up the UI Components landing page that is available at URL `/docs/使用指南/ui-components`, which is ordered second in the main navigation.
+Here we're setting up the UI Components landing page that is available at URL `/docs/Usage Guidelines/ui-components`, which is ordered second in the main navigation.
 
 The navigation links for all pages with children come with an expander. When you click the expander, the display of the children is toggled, so you can expand or collapse all the children displays, regardless of which page is currently active.
 

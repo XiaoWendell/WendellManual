@@ -17,7 +17,7 @@ Markdown 不支持标注。但是，您可以使用 kramdown 支持的 Markdown 
 {: .warning }
 这些标注名称*不是*由主题预先定义的: 您需要定义自己的名称。
 
-当你 [配置]({% link docs/使用指南/configuration.md %}#callouts) 标注的 `color` 和 (可选) `title` 后，你可以将其应用到段落，或者应用到包含多个段落的引用块，如下图所示。[^postfix]
+当你 [配置]({% link docs/Usage Guidelines/configuration.md %}#callouts) 标注的 `color` 和 (可选) `title` 后，你可以将其应用到段落，或者应用到包含多个段落的引用块，如下图所示。[^postfix]
 
 [^postfix]:
     You can put the callout markup either before or after its content.

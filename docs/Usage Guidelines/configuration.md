@@ -87,7 +87,7 @@ mermaid:
 
 Provide a `path` instead of a `version` key to load the mermaid library from a local file.
 
-See [the Code documentation]({% link docs/使用指南/ui-components/code/index.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
+See [the Code documentation]({% link docs/Usage Guidelines/ui-components/code/index.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
 
 ## Aux links
 
@@ -126,7 +126,7 @@ New (v0.4.0)
 {: .label .label-green }
 
 External links can be added to the navigation through the `nav_external_links` option.
-See [Navigation Structure]({% link docs/使用指南/navigation/main/external.md %}) for more details.
+See [Navigation Structure]({% link docs/Usage Guidelines/navigation/main/external.md %}) for more details.
 
 ## Footer content
 
@@ -182,7 +182,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-See [Customization]({% link docs/使用指南/customization.md %}) for more information.
+See [Customization]({% link docs/Usage Guidelines/customization.md %}) for more information.
 
 ## Callouts
 {: .d-inline-block }
@@ -239,7 +239,7 @@ The value of `callouts_level` is either `quiet` or `loud`;
 The default level is `quiet` when using the `light` or custom color schemes,
 and `loud` when using the `dark color scheme.`
 
-See [Callouts]({% link docs/使用指南/ui-components/callouts.md %}) for more information.
+See [Callouts]({% link docs/Usage Guidelines/ui-components/callouts.md %}) for more information.
 
 ## Google Analytics
 

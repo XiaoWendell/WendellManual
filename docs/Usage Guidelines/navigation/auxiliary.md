@@ -6,7 +6,7 @@ nav_order: 2
 
 # Auxiliary Links
 
-您可以向网站添加辅助链接列表，该列表显示在所有页面的右上角。您可以通过在网站的 `_config.yml` 文件中添加 `aux_links` [配置选项]({% link docs/使用指南/configuration.md %}#aux-links) 来实现此目的。
+您可以向网站添加辅助链接列表，该列表显示在所有页面的右上角。您可以通过在网站的 `_config.yml` 文件中添加 `aux_links` [配置选项]({% link docs/Usage Guidelines/configuration.md %}#aux-links) 来实现此目的。
 
 ## Example Auxiliary Link
 {: .text-delta }
