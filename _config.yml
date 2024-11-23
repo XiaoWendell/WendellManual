@@ -110,8 +110,8 @@ heading_anchors: true
 
 # 右上角导航的辅助链接
 aux_links:
-  "Wendell on GitHub":
-    - "https://github.com/XiaoWendell/WendellManual"
+  "Blog":
+    - "https://XiaoWendell.github.io"
 
 # 使辅助链接在新选项卡中打开。默认值为 false
 aux_links_new_tab: false
@@ -141,10 +141,10 @@ liquid:
 
 # 返回顶部链接
 back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top_text: "返回顶部"
 
-footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
-
+# 页脚内容
+footer_content: '版权所有 &copy; 2017-2020 Patrick Marsceill。由 <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT 许可证分发。</a><a href="https://www.netlify.com/">本网站由 Netlify 提供支持。</a>'
 # 页脚最后编辑时间戳
 last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
 last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
@@ -153,9 +153,9 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格�
 gh_edit_link: true # 显示或隐藏编辑此页面链接
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/XiaoWendell/WendellManual" # 你的 repo 的 github URL
-gh_edit_branch: "maater" # 您的文档所来自的分支
+gh_edit_branch: "master" # 您的文档所来自的分支
 # gh_edit_source: docs # 您的文件来源
-gh_edit_view_mode: "tree" # 如果您希望用户立即跳转到编辑器，则使用“tree”或“edit”
+gh_edit_view_mode: "edit" # 如果您希望用户立即跳转到编辑器，则使用“tree”或“edit”
 
 # 配色方案目前仅支持 "dark", "light"/nil (default)或您定义的自定义方案
 color_scheme: dark

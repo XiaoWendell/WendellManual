@@ -1,7 +1,7 @@
 ---
-title: 布局  
-layout: default  
-nav_order: 4.5  
+title: 布局
+layout: default 
+nav_order: 4.5
 ---
 
 # 布局（Layout）
