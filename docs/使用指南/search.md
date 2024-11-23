@@ -1,5 +1,6 @@
 ---
 title: 搜索
+parent: 使用指南
 nav_order: 7
 ---
 

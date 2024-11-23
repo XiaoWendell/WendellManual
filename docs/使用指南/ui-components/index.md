@@ -1,5 +1,6 @@
 ---
 title: UI 组件
+parent: 使用指南
 nav_order: 3
 ---
 

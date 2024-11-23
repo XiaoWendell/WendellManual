@@ -1,6 +1,7 @@
 ---
 title: 布局
 layout: default
+parent: 使用指南
 nav_order: 4.5
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 实用工具
+parent: 使用指南
 nav_order: 4
 ---
 
