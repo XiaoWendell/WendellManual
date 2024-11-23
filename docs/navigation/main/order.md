@@ -1,6 +1,6 @@
 ---
-title: Ordering Pages
-parent: Main Navigation
+title: 页面排序
+parent: 主导航
 nav_order: 1
 ---
 

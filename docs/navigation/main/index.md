@@ -1,6 +1,6 @@
 ---
-title: Main Navigation
-parent: Navigation
+title: 主导航
+parent: 导航
 nav_order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Ancestry
-parent: Main Navigation
+title: 祖先
+parent: 主导航
 nav_order: 4
 ---
 

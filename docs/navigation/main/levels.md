@@ -1,6 +1,6 @@
 ---
-title: Page Levels
-parent: Main Navigation
+title: 页面级别
+parent: 主导航
 nav_order: 3
 ---
 

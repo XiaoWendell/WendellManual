@@ -1,10 +1,10 @@
 ---
 title: Y
-parent: Ancestry
+parent: 祖先
 ---
 # Y
 
 ```yaml
 title: Y
-parent: Ancestry
+parent: 祖先
 ```

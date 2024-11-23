@@ -1,6 +1,6 @@
 ---
-title: Collections
-parent: Main Navigation
+title: 收藏
+parent: 主导航
 nav_order: 5
 ---
 

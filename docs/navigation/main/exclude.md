@@ -1,6 +1,6 @@
 ---
-title: Excluding Pages
-parent: Main Navigation
+title: 排除页面
+parent: 主导航
 nav_order: 2
 ---
 
