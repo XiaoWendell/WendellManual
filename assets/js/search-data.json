@@ -400,7 +400,7 @@
   },"57": {
     "doc": "辅助链接",
     "title": "Example Auxiliary Link",
-    "content": "该网站有一个辅助链接: “Just the Docs on GitHub”。它使用以下代码呈现: . aux_links: Just the Docs on GitHub: - https://github.com/just-the-docs/just-the-docs . ",
+    "content": "该网站有一个辅助链接: “GitHub”。它使用以下代码呈现: . aux_links: GitHub: - https://github.com . ",
     "url": "/docs/navigation/auxiliary/#example-auxiliary-link",
     
     "relUrl": "/docs/navigation/auxiliary/#example-auxiliary-link"
@@ -652,7 +652,7 @@
   },"93": {
     "doc": "配置",
     "title": "Aux links",
-    "content": "# Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/just-the-docs/just-the-docs\" # Makes Aux links open in a new tab. Default is false aux_links_new_tab: false . ",
+    "content": "# Aux links for the upper right navigation aux_links: \"GitHub\": - \"//github.com\" # Makes Aux links open in a new tab. Default is false aux_links_new_tab: false . ",
     "url": "/docs/configuration/#aux-links",
     
     "relUrl": "/docs/configuration/#aux-links"
