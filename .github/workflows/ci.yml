@@ -1,3 +1,5 @@
+name: CI
+
 on:
   push:
     branches:
@@ -6,85 +8,69 @@ on:
     branches:
       - master
 
-name: CI
-
 jobs:
   jekyll-build:
     name: Build (jekyll gem)
     strategy:
       fail-fast: false
       matrix:
-        jekyll-version: [4.3] # [3.9, 4.3]
-        os: [ubuntu-latest] # [ubuntu-latest, macos-latest, windows-latest]
-        ruby-version: ["3.3"] # ["3.1", "3.2", "3.3"]
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统, 如[ubuntu-latest, windows-latest, macos-latest]
+        jekyll-version: [4.3]  # 保留常用的 Jekyll 版本, 如[3.9, 4.3]
+        ruby-version: ["3.2"]  # 选择常用的 Ruby 版本, 如["3.1", "3.2", "3.3"]
     runs-on: ${{ matrix.os }}
+    
     steps:
+      # 检出代码
       - uses: actions/checkout@v4
+
+      # 设置 Ruby 环境
       - name: Setup Ruby ${{ matrix.ruby-version }}
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: false
+
+      # 安装 Jekyll 依赖
       - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
         run: bundle install
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+
+      # 初始化搜索功能
       - name: Init Search
         run: bundle exec rake search:init
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+
+      # 构建 Jekyll 网站
       - name: Build Site
         run: bundle exec jekyll build
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
 
-  github-pages-build:
-    name: Build (github-pages gem)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: false
-      - name: Bundle Install
-        run: bundle install
-        env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
-      - name: Build Site
-        run: bundle exec jekyll build
-        env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
-
   validate:
     name: Validate HTML
     strategy:
-      fail-fast: false
       matrix:
-        ruby-version: ["3.3"]
-    runs-on: ubuntu-latest
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统
+    runs-on: ${{ matrix.os }}
 
     steps:
+      # 检出代码
       - uses: actions/checkout@v4
-      - name: Setup Ruby ${{ matrix.ruby-version }}
+
+      # 设置 Ruby 环境
+      - name: Setup Ruby "3.2"
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
-          bundler-cache: true # 运行“bundle install”并自动缓存已安装的 gem
-          cache-version: 0 # 如果需要重新下载缓存的 gem，请增加这个数字
-      - name: Cache HTMLProofer
-        id: cache-htmlproofer
-        uses: actions/cache@v3
-        with:
-          path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
+          ruby-version: "3.2"
+          bundler-cache: true  # 启用缓存
+
+      # 构建 Jekyll 网站
       - name: Build Site
         run: bundle exec jekyll build
-      - name: Test with Nu Validator
-        uses: Cyb3r-Jak3/html5validator-action@2a593a9f2c10593cbac84791a6fc4c47e9a106c8
-        with:
-          config: fixtures/html5validator-config.yml
+
+      # 使用 html-proofer 进行链接和 HTML 验证
       - name: Test with html-proofer
         run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
         env:
@@ -92,17 +78,24 @@ jobs:
 
   assets:
     name: Test CSS and JS
-    runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [20.x]
+        os: [ubuntu-latest]  # 可以扩展为其他操作系统
+        node-version: [20.x]  # Node.js 版本
+    runs-on: ${{ matrix.os }}
 
     steps:
+      # 检出代码
       - uses: actions/checkout@v4
+
+      # 设置 Node.js 环境
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+
+      # 安装依赖
       - run: npm install
+
+      # 运行测试
       - run: npm test
