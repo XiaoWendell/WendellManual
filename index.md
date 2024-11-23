@@ -18,7 +18,7 @@ permalink: /
 ---
 
 {: .warning }
-> **提示: ** 请参阅 [更新日志]({% link CHANGELOG.md %}) 了解最新发布、功能更新和错误修复。
+> **提示:** 请参阅 [更新日志]({% link CHANGELOG.md %}) 了解最新发布、功能更新和错误修复。
 
 通过使用 [Markdown]、[Liquid] 模板语言和 HTML 编写源文件，构建的专业级文档平台。[^1]  
 Jekyll 会自动将包含 [front matter] 的文件转换为 HTML，从而生成完整的网站。
