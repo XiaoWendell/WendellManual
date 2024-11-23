@@ -6,7 +6,7 @@
 # on:
 #   push:
 #     branches:
-#       - master  # 替换为你托管的主分支名称（通常是 master 或 main）
+#       - master  # 替换为恁托管的主分支名称（通常是 master 或 main）
 #   pull_request:
 
 # jobs:
@@ -43,5 +43,5 @@
 #         publish_dir: ./_site
 
 # # 为什么会有 gh-pages 分支: 
-# # GitHub Pages 部署机制: GitHub Pages 通常要求站点内容存放在 gh-pages 分支中（或者 main 或 master 分支的根目录，具体取决于设置）。当你使用 peaceiris/actions-gh-pages 自动部署时，它会将 _site 文件夹中的构建文件推送到 gh-pages 分支上，而不是直接推送到 master 或 main 分支。
+# # GitHub Pages 部署机制: GitHub Pages 通常要求站点内容存放在 gh-pages 分支中（或者 main 或 master 分支的根目录，具体取决于设置）。当恁使用 peaceiris/actions-gh-pages 自动部署时，它会将 _site 文件夹中的构建文件推送到 gh-pages 分支上，而不是直接推送到 master 或 main 分支。
 # # 部署文件与源代码分离: 这种做法的目的是保持源代码和生成的静态文件分开。这样可以避免源代码与生成文件混在一个分支中，使得版本控制更加清晰，且便于管理。

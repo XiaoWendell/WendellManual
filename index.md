@@ -2,7 +2,7 @@
 title: 首页
 layout: home
 nav_order: 1
-description: 具有内置搜索功能的文档平台
+description: Wendell's Manual
 permalink: /
 ---
 
@@ -20,17 +20,15 @@ permalink: /
 {: .warning }
 > **提示: ** 请参阅 [更新日志]({% link CHANGELOG.md %}) 了解最新发布、功能更新和错误修复。
 
-通过使用 [Markdown]、[Liquid] 模板语言和 HTML 编写源文件，轻松构建专业级文档平台。[^1]  
+通过使用 [Markdown]、[Liquid] 模板语言和 HTML 编写源文件，构建的专业级文档平台。[^1]  
 Jekyll 会自动将包含 [front matter] 的文件转换为 HTML，从而生成完整的网站。
-
-浏览文档以了解如何使用此主题的更多信息。
 
 ---
 
 ## 开始
 ### 关于项目
 
-WendellManual 是由 &copy; 2017-{{ "now" | date: "%Y" }} 创建，项目作者是 [Patrick Marsceill](https://patrickmarsceill.com)。
+WendellManual 是由 &copy; 2023-{{ "now" | date: "%Y" }} 创建。
 
 #### 特别感谢 Just the Docs 的贡献者
 <ul class="list-style-none">

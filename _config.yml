@@ -1,20 +1,12 @@
-# 欢迎使用 Jekyll！
-#
-# 此配置文件用于影响整个站点的设置，这些值
-# 只需设置一次，之后很少进行编辑。如果您发现自己经常编辑这些文件，请考虑使用 Jekyll 的数据文件
-# 功能来获取需要经常更新的数据。
-#
-# 由于技术原因，当您使用
-# 'jekyll serve' 时，此文件不会自动重新加载。如果您更改此文件，请重新启动服务器进程。
-# 站点设置
-# 这些用于个性化您的新站点。如果您查看 HTML 文件，
-# 您将看到它们通过 {{ site.title }}、{{ site.github_repo }} 等访问。
-# 您可以创建任何您想要的自定义变量，并且它们将通过 {{ site.myvariable }} 在模板中访问。
+# 此配置文件用于影响整个站点的设置，这些值只需设置一次，之后很少进行编辑。
+# 如果发现自己经常编辑这些文件，请考虑使用 Jekyll 的数据文件功能来获取需要经常更新的数据。
+
+# 由于技术原因，当恁使用'jekyll serve' 时，此文件不会自动重新加载。如果更改此文件，请重新启动服务器进程。
 
 title: WendellManual
 description: Wendell's Manual
-baseurl: "" # 您网站的子路径，例如 /blog
-url: "https://wendell.website/WendellManual/" # 您网站的基本主机名和协议，例如 http://example.com
+baseurl: "" # 恁网站的子路径，例如 /blog
+url: "https://wendell.website/WendellManual/" # 恁网站的基本主机名和协议，例如 http://example.com
 repository: XiaoWendell/WendellManual # 用于 github-metadata
 
 
@@ -146,7 +138,7 @@ back_to_top: true
 back_to_top_text: "返回顶部"
 
 # 页脚内容
-footer_content: '版权所有 &copy; 2017-2025 <a href="https://github.com/XiaoWendell">Wendell</a>。由 <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT 许可证</a> 分发。本网站由 <a href="https://www.netlify.com/">Netlify</a> 提供支持。'
+footer_content: '版权所有 &copy; 2023-2025 <a href="https://github.com/XiaoWendell">Wendell</a> 。由 <a href="https://github.com/XiaoWendell/WendellManual/tree/master/LICENSE.txt">MIT 许可证</a> 分发。本网站由 <a href="https://www.netlify.com/">Netlify</a> 提供支持。'
 # 页脚最后编辑时间戳
 last_edit_timestamp: true # 显示或隐藏编辑时间 - 页面必须在前言中定义 `last_modified_date`
 last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格式: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
@@ -154,12 +146,12 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # 使用 ruby​​ 的时间格�
 # 页脚 “在 GitHub 上编辑此页面” 链接文本
 gh_edit_link: true # 显示或隐藏编辑此页面链接
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/XiaoWendell/WendellManual" # 你的 repo 的 github URL
-gh_edit_branch: "master" # 您的文档所来自的分支
-# gh_edit_source: docs # 您的文件来源
-gh_edit_view_mode: "edit" # 如果您希望用户立即跳转到编辑器，则使用“tree”或“edit”
+gh_edit_repository: "https://github.com/XiaoWendell/WendellManual" # 恁的 repo 的 github URL
+gh_edit_branch: "master" # 恁的文档所来自的分支
+# gh_edit_source: docs # 恁的文件来源
+gh_edit_view_mode: "edit" # 如果恁希望用户立即跳转到编辑器，则使用“tree”或“edit”
 
-# 配色方案目前仅支持 "dark", "light"/nil (default)或您定义的自定义方案
+# 配色方案目前仅支持 "dark", "light"/nil (default)或恁定义的自定义方案
 color_scheme: dark
 
 callouts_level: quiet # or loud

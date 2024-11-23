@@ -7,14 +7,14 @@ nav_order: 4.5
 
 # 布局（Layout）
 
-你可以在页面的 [front matter](https://jekyllrb.com/docs/front-matter/) 中指定布局。Just the Docs 提供了一个带有侧边栏的 `default` 布局（主题文档中几乎所有页面都使用该布局），以及一个省略侧边栏的 `minimal` 布局。  
+恁可以在页面的 [front matter](https://jekyllrb.com/docs/front-matter/) 中指定布局。Just the Docs 提供了一个带有侧边栏的 `default` 布局（主题文档中几乎所有页面都使用该布局），以及一个省略侧边栏的 `minimal` 布局。  
 {: .fs-6 .fw-300 }
 
 ## 布局的概念
 
 请参阅 [Jekyll 的布局文档页面](https://jekyllrb.com/docs/layouts/) 了解布局的基本概念以及如何指定它们。
 
-你可以使用 [Jekyll 的 front matter 默认值](https://jekyllrb.com/docs/configuration/front-matter-defaults/) 来为多个页面指定相同的布局。
+恁可以使用 [Jekyll 的 front matter 默认值](https://jekyllrb.com/docs/configuration/front-matter-defaults/) 来为多个页面指定相同的布局。
 
 ## `default` 布局
 
@@ -28,7 +28,7 @@ Just the Docs 的默认布局是 *响应式布局*: 在中宽及以上宽度的�
 
 ## `minimal` 布局
 
-本页面的一个子页面和孙页面使用了 `minimal` 布局。该布局与 `default` 布局的区别在于省略了侧边栏以及导航面板。要在使用 `minimal` 布局的页面之间导航，你可以使用 breadcrumbs 和目录表。
+本页面的一个子页面和孙页面使用了 `minimal` 布局。该布局与 `default` 布局的区别在于省略了侧边栏以及导航面板。要在使用 `minimal` 布局的页面之间导航，恁可以使用 breadcrumbs 和目录表。
 
 ## 有选择地隐藏或显示侧边栏
 
