@@ -7,21 +7,21 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # 在推送到默认分支时运行
   push:
     branches: ["master"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 允许您从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# 只允许一个并发部署，跳过在进行中的运行和最新排队之间排队的运行。
+# 但是，不要取消进行中的运行，因为我们希望允许这些生产部署完成。
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -43,28 +43,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
+        # 默认输出到 './_site' 目录
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
+            - name: Upload artifact
+        # 默认自动从 './_site' 目录上传工件
         uses: actions/upload-pages-artifact@v3
-
-      #   # Wait job，在 actions/deploy-pages 步骤之前，添加一个防止重复运行的逻辑，等待之前的任务完成: 
-      # - name: Wait for other workflows to finish
-      #   uses: jakejarvis/wait-on-check@v2
-      #   with:
-      #     repo: ${{ github.repository }}
-      #     ref: ${{ github.sha }}
-
-      - name: Wait for 30 seconds
-        run: sleep 30
-
-
-
-
-  # Deployment job
+        
+  # 部署作业
   deploy:
     environment:
       name: github-pages

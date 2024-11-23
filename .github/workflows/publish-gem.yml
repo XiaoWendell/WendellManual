@@ -26,8 +26,8 @@ jobs:
       env:
         GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
         OWNER: ${{ github.repository_owner }}
-
-    # Disabled as this does not handle 2FA
+    
+    # 已禁用，因为此产品不处理 2FA
     # - name: Publish to RubyGems
     #   run: |
     #     mkdir -p $HOME/.gem
