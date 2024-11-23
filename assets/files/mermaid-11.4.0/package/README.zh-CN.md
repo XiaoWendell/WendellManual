@@ -318,9 +318,9 @@ Rel(SystemC, customerA, "Sends e-mails to")
 
 ## 发布
 
-对于有权限的同学来说，你可以通过以下步骤来完成发布操作：
+对于有权限的同学来说，你可以通过以下步骤来完成发布操作: 
 
-更新 `package.json` 中的版本号，然后执行如下命令：
+更新 `package.json` 中的版本号，然后执行如下命令: 
 
 ```sh
 npm publish

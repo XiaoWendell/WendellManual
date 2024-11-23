@@ -1,6 +1,6 @@
 ---
 title: 布局
-layout: default 
+layout: default
 nav_order: 4.5
 ---
 
