@@ -55,7 +55,7 @@ const idx = lunr(function () {
 ```javascript
 const documents = [
   { id: 1, title: 'Hello World', content: 'This is a test document.' },
-  { id: 2, title: '你好，世界', content: '这是一个中文测试文档。' }
+  { id: 2, title: '恁好，世界', content: '这是一个中文测试文档。' }
 ];
 ```
 
@@ -129,7 +129,7 @@ npm install nodejieba
 ```javascript
 const jieba = require('nodejieba');
 const documents = [
-  { id: 1, title: '你好，世界', content: jieba.cut('这是一个中文测试文档。').join(' ') }
+  { id: 1, title: '恁好，世界', content: jieba.cut('这是一个中文测试文档。').join(' ') }
 ];
 
 const idx = lunr(function () {

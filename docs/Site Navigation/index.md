@@ -1,15 +1,12 @@
 ---
 title: 网站导航
+description: 收录精选外部资源链接和推荐网站。
 nav_order: 3
 ---
 
+---
+
 # 网站导航
-{: .no_toc }
-
-## 目录
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+开始行动，有梦便能抵达！珍藏网址。
 
 ---

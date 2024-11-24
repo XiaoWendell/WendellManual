@@ -31,7 +31,7 @@ npm install lunr-languages
 #### 示例文档
 ```javascript
 const documents = [
-  { id: 1, title: "你好，世界", content: "这是一个中文测试文档。" },
+  { id: 1, title: "恁好，世界", content: "这是一个中文测试文档。" },
   { id: 2, title: "搜索技术", content: "Lunr.js 非常轻量，但功能强大。" }
 ];
 ```
@@ -66,7 +66,7 @@ console.log(results);
 #### 多语言示例文档
 ```javascript
 const documents = [
-  { id: 1, title: "你好，世界", content: "这是一个中文测试文档。" },
+  { id: 1, title: "恁好，世界", content: "这是一个中文测试文档。" },
   { id: 2, title: "Hello World", content: "This is an English test document." },
   { id: 3, title: "Bonjour le monde", content: "Ceci est un document de test français." }
 ];
@@ -140,7 +140,7 @@ npm install nodejieba
 const jieba = require("nodejieba");
 
 const documents = [
-  { id: 1, title: jieba.cut("你好，世界").join(" "), content: jieba.cut("这是一个中文测试文档。").join(" ") },
+  { id: 1, title: jieba.cut("恁好，世界").join(" "), content: jieba.cut("这是一个中文测试文档。").join(" ") },
   { id: 2, title: "Hello World", content: "This is an English test document." }
 ];
 ```
@@ -151,7 +151,7 @@ const documents = [
 
 ### 总结
 
-1. 通过 `lunr-languages`，你可以方便地为 Lunr.js 添加多语言支持。
+1. 通过 `lunr-languages`，恁可以方便地为 Lunr.js 添加多语言支持。
 2. 对于中文搜索，推荐结合预分词工具（如 `nodejieba`）提升效果。
 3. 支持的语言丰富，可以轻松构建单语言或多语言索引。
 4. 通过序列化和反序列化，可以将索引部署到前端，或在多个环境中复用。
