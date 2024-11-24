@@ -1,5 +1,6 @@
 ---
 title: Ai
+parent: 网站导航
 nav_order: 1
 ---
 
