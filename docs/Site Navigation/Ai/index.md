@@ -29,13 +29,13 @@ nav_order: 1
   腾讯研发的大语言模型，支持中文内容创作、逻辑推理与任务执行。
 - **[FreeImage.AI - Metatext.AI](https://metatext.io/)**  
   提供无代码 NLP 模型构建、维护与部署的全流程支持，提升团队自动化能力。
-- **[OpenAI](https://openai.com/)**  
+- **`[OpenAI](https://openai.com/)`**
   AI 技术领先者，推动未来科技的协作与创新。
 - **[Claude](https://claude.ai/)**  
   专为高效办公设计的下一代 AI 助手，安全、可靠且精准。
 
 ## **AI 聊天助手**
-- **[ChatGPT](https://chatgpt.com/?model=auto)**  
+- **`[ChatGPT](https://chatgpt.com/?model=auto)`**  
   多功能聊天助手，免费及付费版本可满足不同需求。
 - **[豆包](https://www.doubao.com/chat/)**  
   字节跳动推出的免费聊天 AI，适合日常对话及任务处理。

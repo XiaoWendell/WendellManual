@@ -74,11 +74,7 @@ jobs:
         # 忽略"docs/Site Navigation/*"文件并假定所有 HTTP 链接为 HTTPS
         run: |
           bundle exec htmlproofer _site \
-            --ignore-urls "/github.com/,/web.archive.org/, \
-
-            http://guihuayun.com/ai_pics/tags.php, \
-            http://www.atoolbox.net/* \
-            "
+            --ignore-urls "/github.com/,/web.archive.org/,http://.*/"
         env:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 

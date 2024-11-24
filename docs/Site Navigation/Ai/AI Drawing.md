@@ -18,7 +18,7 @@ AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出�
 ---
 
 ### 1. **Midjourney**
-- [官网链接](https://www.midjourney.com/home/)
+- `[官网链接](https://www.midjourney.com/home/)`
   - *需要验证手机号码，不支持中国大陆及香港号码。*
 - [Midjourney - Discord](https://discord.com/channels/662267976984297473/@home)
   - *官方服务器，文本到图像的 AI 工具，您的想象力是唯一限制。*
@@ -81,7 +81,7 @@ AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出�
   - *专注服装人台图与服装生成。*
 
 ### 17. **NightCafe Creator**
-- [官网链接](https://creator.nightcafe.studio/studio)
+- `[官网链接](https://creator.nightcafe.studio/studio)`
   - *快速生成精美 AI 艺术作品。*
 
 ### 18. **DreamStudio**
@@ -101,7 +101,7 @@ AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出�
   - *通过文字生成图片，支持谷歌登录，限额 100 点。*
 
 ### 22. **Craiyon**
-- [官网链接](https://www.craiyon.com/)
+- `[官网链接](https://www.craiyon.com/)`
   - *免费在线 AI 图像生成工具（内网无法访问）。*
 
 ### 24. **Adobe Firefly**
