@@ -29,10 +29,6 @@ nav_order: 2
 - [官网链接](https://prompt.noonshot.com/)
   - *规范分类，支持搜索及查看样图。*
 
-### 4. **PromptPerfect**
-- [官网链接](https://promptperfect.jinaai.cn/)
-  - *提示词优化工具，收费，提供免费额度，支持针对特定平台的模型进行优化。*
-
 ### 5. **Prompt Engineering Guide**
 - [官网链接](https://www.promptingguide.ai/zh)
   - *新兴学科，关注提示词开发与优化，帮助用户更好地理解和应用大型语言模型（LLM）。*
@@ -49,10 +45,6 @@ nav_order: 2
 - [官网链接](https://openart.ai/discovery)
   - *搜索超过 10M 提示词，通过 Stable Diffusion 和 DALL·E 2 生成 AI 艺术。*
 
-### 9. **AcceleratorI Prompt**
-- [官网链接](https://ai.dawnmark.cn/)
-  - *提示词翻译工具，支持多种平台生成提示词，如 Novel AI、Midjourney、Stable Diffusion 等。*
-
 ### 10. **魔咒百科词典**
 - [官网链接](https://aitag.top/)
   - *细分类型的提示词库，帮助找到不同风格和效果的提示词。*
@@ -60,14 +52,6 @@ nav_order: 2
 ### 11. **ChatGPT Shortcut**
 - [官网链接](https://www.aishort.top/)
   - *提高生产力的工具，支持标签筛选、关键词搜索和一键复制提示词。*
-
-### 12. **Dallelist**
-- [官网链接](https://www.dallelist.com/)
-  - *DALL·E 2 提示词助手，界面简约直观。*
-
-### 13. **Hayo Prompts**
-- [官网链接](https://www.hayo.com/prompts/4)
-  - *热门指令，覆盖 AI 绘图、工作效率、文案撰写等领域。*
 
 ### 14. **PromptBase**
 - [官网链接](https://promptbase.com/)
