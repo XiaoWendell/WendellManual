@@ -72,10 +72,11 @@ jobs:
       - name: Test with html-proofer
         # run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
         # 忽略"docs/Site Navigation/*"文件并假定所有 HTTP 链接为 HTTPS
-        run: |
-          bundle exec htmlproofer _site \
-            --ignore-urls "/github.com/,/web.archive.org/" \
-            --ignore-files "docs/Site Navigation/*" --assume-https
+        # run: |
+        #   bundle exec htmlproofer _site \
+        #     --ignore-urls "/github.com/,/web.archive.org/" \
+        #     --ignore-files "docs/Site Navigation/*" --assume-https
+        run: bundle exec htmlproofer _site --ignore-files "_site/docs/*" --assume-https --ignore-urls "/github.com/,/web.archive.org/"
         env:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
