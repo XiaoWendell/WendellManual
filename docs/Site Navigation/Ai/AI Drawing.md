@@ -104,10 +104,6 @@ AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出�
 - [官网链接](https://www.craiyon.com/)
   - *免费在线 AI 图像生成工具（内网无法访问）。*
 
-### 23. **Gradio**
-- [官网链接](https://dalle-mini-dalle-mini.hf.space/index.html)
-  - *基于 DALL·E Mini 的简单图片生成工具。*
-
 ### 24. **Adobe Firefly**
 - [官网链接](https://firefly.adobe.com/)
   - *支持文字生成图片、SVG 矢量图、3D 创建等。*
