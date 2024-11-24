@@ -9,6 +9,8 @@ nav_order: 2
 
 使用提示词工具获取、生成或优化提示词，帮助您利用 AI 绘制更完美的画作。
 
+---
+
 ## 目录
 {: .no_toc .text-delta }
 
@@ -62,7 +64,7 @@ nav_order: 2
   - *可视化编辑提示词，并支持一键翻译。*
 
 ### 16. **AI 绘画提示词生成器**
-- [官网链接](http://guihuayun.com/ai_pics/tags.php)
+- `[官网链接](http://guihuayun.com/ai_pics/tags.php)`
   - *提供 AI 绘画提示词生成工具，支持多个平台。*
 
 ### 17. **Midjourney-Styles-and-Keywords-Reference**
@@ -74,11 +76,11 @@ nav_order: 2
   - *为电子商务营销商提供现成的 ChatGPT 提示词。*
 
 ### 19. **Midjourney 提示词生成器**
-- [官网链接](http://www.atoolbox.net/Tool.php?Id=1102)
+- `[官网链接](http://www.atoolbox.net/Tool.php?Id=1102)`
   - *实用的 Midjourney 提示词生成工具。*
 
 ### 20. **AI 绘画提示词生成器**
-- [官网链接](http://www.atoolbox.net/Tool.php?Id=1101)
+- `[官网链接](http://www.atoolbox.net/Tool.php?Id=1101)`
   - *针对 AI 绘画生成优化提示词。*
 
 ### 21. **无界 AI**

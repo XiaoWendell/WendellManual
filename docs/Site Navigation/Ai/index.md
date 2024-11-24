@@ -7,6 +7,12 @@ nav_order: 1
 # **人工智能工具与服务导航**
 {: .no_toc }
 
+通过AI创造内容，简化工作中繁琐的环节，提升工作效率
+
+缘于 OpenAi 却不限于 ChatGPT。
+
+---
+
 <details open markdown="block">
   <summary>
     目录
@@ -15,12 +21,6 @@ nav_order: 1
 1. TOC
 {:toc}
 </details>
-
----
-
-通过AI创造内容，简化工作中繁琐的环节，提升工作效率
-
-缘于 OpenAi 却不限于 ChatGPT。
 
 ---
 

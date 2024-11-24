@@ -70,11 +70,7 @@ jobs:
 
       # 使用 html-proofer 进行链接和 HTML 验证
       - name: Test with html-proofer
-        # run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
-        # 忽略"docs/Site Navigation/*"文件并假定所有 HTTP 链接为 HTTPS
-        run: |
-          bundle exec htmlproofer _site \
-            --ignore-urls "/github.com/,/web.archive.org/,http://.*/"
+        run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
         env:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
