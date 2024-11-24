@@ -7,17 +7,15 @@ nav_order: 1
 # AI 生成图片资源大全
 {: .no_toc }
 
+AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出梦境。**免费！免费！免费！**
+
 ## 目录
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 ---
-
-AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出梦境。**免费！免费！免费！**
-
-## 平台列表
 
 ### 1. **Midjourney**
 - [官网链接](https://www.midjourney.com/home/)

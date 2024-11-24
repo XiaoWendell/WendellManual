@@ -7,17 +7,15 @@ nav_order: 2
 # AI 绘图提示词
 {: .no_toc }
 
+使用提示词工具获取、生成或优化提示词，帮助您利用 AI 绘制更完美的画作。
+
 ## 目录
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 ---
-
-使用提示词工具获取、生成或优化提示词，帮助您利用 AI 绘制更完美的画作。
-
-## 提示词相关网站
 
 ### 1. **AiTuts Prompts - Midjourney Prompt Library**
 - [官网链接](https://prompts.aituts.com/)
