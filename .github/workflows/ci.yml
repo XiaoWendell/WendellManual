@@ -75,7 +75,7 @@ jobs:
         run: |
           bundle exec htmlproofer _site \ 
             --ignore-urls "/github.com/,/web.archive.org/" \ 
-            --ignore-files "docs/Site Navigation/*" --assume-https
+            --ignore-files "$(pwd)/docs/Site Navigation/*" --assume-https
         env:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
