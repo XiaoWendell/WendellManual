@@ -12,7 +12,7 @@ _includes/mermaid_config.js
 
 
 
-# wendell: mermaid.js 和 mermaid.min.js 是来自外部库，您可以忽略这些文件的格式化检查。
+# wendell: mermaid.js 和 mermaid.min.js 是来自外部库，恁可以忽略这些文件的格式化检查。
 assets/files/mermaid-11.4.0/package/dist/mermaid.js
 assets/files/mermaid-11.4.0/package/dist/mermaid.min.js
 assets/files/mermaid-11.4.0/package/package.json

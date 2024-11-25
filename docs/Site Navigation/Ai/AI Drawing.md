@@ -23,7 +23,7 @@ AI 生成图片，设计师的效率神器，人人的造梦师，轻松绘出�
 - `[官网链接](https://www.midjourney.com/home/)`
   - *需要验证手机号码，不支持中国大陆及香港号码。*
 - [Midjourney - Discord](https://discord.com/channels/662267976984297473/@home)
-  - *官方服务器，文本到图像的 AI 工具，您的想象力是唯一限制。*
+  - *官方服务器，文本到图像的 AI 工具，恁的想象力是唯一限制。*
   - *需要付费。*
 
 ### 2. **Designer Image Creator**

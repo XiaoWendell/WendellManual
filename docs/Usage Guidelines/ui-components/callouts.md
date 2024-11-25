@@ -10,12 +10,12 @@ nav_order: 7
 新 (v0.4.0)
 {: .label .label-green }
 
-Markdown 不支持标注。但是，您可以使用 kramdown 支持的 Markdown 扩展将文本样式设置为标注: [*block IALs*](https://kramdown.gettalong.org/quickref.html#block-attributes)。
+Markdown 不支持标注。但是，恁可以使用 kramdown 支持的 Markdown 扩展将文本样式设置为标注: [*block IALs*](https://kramdown.gettalong.org/quickref.html#block-attributes)。
 
 常见的标注类型包括 `highlight`、`important`、`new`、`note` 和 `warning`。
 
 {: .warning }
-这些标注名称*不是*由主题预先定义的: 您需要定义自己的名称。
+这些标注名称*不是*由主题预先定义的: 恁需要定义自己的名称。
 
 当恁 [配置]({% link docs/Usage Guidelines/configuration.md %}#callouts) 标注的 `color` 和 (可选) `title` 后，恁可以将其应用到段落，或者应用到包含多个段落的引用块，如下图所示。[^postfix]
 

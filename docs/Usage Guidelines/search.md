@@ -25,7 +25,7 @@ Just the Docs 使用 [lunr.js](https://lunrjs.com) 添加由 Jekyll 生成的 JS
 
 ## 在配置中启用搜索
 
-在您网站的 `_config.yml` 中，启用搜索: 
+在恁网站的 `_config.yml` 中，启用搜索: 
 
 ```yaml
 # Enable or disable the site search

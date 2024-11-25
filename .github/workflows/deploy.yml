@@ -10,7 +10,7 @@ on:
   push:
     branches: ["master"]
     
-  # 允许您从操作选项卡手动运行此工作流程
+  # 允许恁从操作选项卡手动运行此工作流程
   workflow_dispatch:
 
 # 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
